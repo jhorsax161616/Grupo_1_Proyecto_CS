@@ -6,6 +6,6 @@ Este proyecto está desarrollado por estudiantes de la Universidad Continental, 
 |:-------------: |:---------------|
 | 1         | Cordova Poma Jhordan Sax |
 | 2         | Ingaroca Maldonado Jhim Sebastian          |
-| 3         | Name          | 
+| 3         | Ingaroca Maldonado Jhim Sebastian          | 
 | 4         | Name          |
 | 5         | Name          | 
