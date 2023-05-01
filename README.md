@@ -5,7 +5,7 @@ Este proyecto está desarrollado por estudiantes de la Universidad Continental, 
 | **Integrante**  | **Apellidos y Nombres**  |
 |:-------------: |:---------------|
 | 1         | Cordova Poma Jhordan Sax |
-| 2         | Name          |
+| 2         | Ingaroca Maldonado Jhim Sebastian          |
 | 3         | Name          | 
 | 4         | Name          |
 | 5         | Name          | 
