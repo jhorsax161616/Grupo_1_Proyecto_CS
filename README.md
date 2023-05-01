@@ -9,7 +9,7 @@ Este proyecto está desarrollado por estudiantes de la Universidad Continental, 
 | 1         | Cordova Poma Jhordan Sax |
 | 2         | Name |
 | 3         | Ingaroca Maldonado Jhim Sebastian |
-| 4         | Name          |
+| 4         | Osorio Alanya Gianfranco          |
 | 5         | Name          |
 | 6         | Zapata Medina Juan Diego |
 
