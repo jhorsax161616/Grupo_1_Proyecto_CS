@@ -38,7 +38,7 @@ Lista de historias de usuario (product backlog priorizada).
 | null |HYST16 | Actualizar tardanza | Como gerente, quiero ver los minutos de tardanzas de mis trabajadores para poder realizar cambios en su sueldo | null | null |
 | null |HYST17 | Pago por horas extras | Como gerente deseo calcular calcular él pago por horas extras  para agregar él bono al sueldo del trabajador con la siguiente fórmula: (pagoHorasExtras)= 1.50 * horasExtras* sueldoBasico/30/ 8. | null | null |
 | null |HYST18 | movilidad | Como gerente deseo generar la siguiente constante para poder realizar los cálculos posteriores. movilidad=1000|null | null 
-| null |HYST19 | bonificación suplementarias | Como gerente deseo calcular las bonificaciones suplementarias para aplicarlos a los sueldos de los trabajadores, aplicando la siguiente fórmula: bonificacionSuplementaria=0.03*sueldoBasico.| null | null |
+| null |HYST19 | bonificación suplementarias | Como gerente deseo calcular las bonificaciones suplementarias para aplicarlos a los sueldos de los trabajadores. | null | null |
 | null |HYST20 | Remuneración computable | Como gerente deseo calcular el la remuneración computable en base al sueldo básico más las bonificaciones para aplicarlo en el sueldo del trabajador. Aplicando la siguiente fórmula: remuneracionComputable= sueldoBasico + movilidad +bonificacionSuplementaria | null | null |
 >>>>>>> aed87326cefadd2d9b25e182ba42e1089f3b01bb
 | null |HYST21 | null | null | null | null |
