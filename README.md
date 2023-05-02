@@ -7,7 +7,7 @@ Este proyecto está desarrollado por estudiantes de la Universidad Continental, 
 | __Integrante__  | __Apellidos y Nombres__  |
 |:-------------: |:---------------|
 | 1         | Cordova Poma Jhordan Sax |
-| 2         | Name |
+| 2         | Hilario Castro Kenss Lin Kadú |
 | 3         | Ingaroca Maldonado Jhim Sebastian |
 | 4         | Osorio Alanya Gianfranco          |
 | 5         | Rosales Tapia Brad Jhomers        |
@@ -23,14 +23,15 @@ Lista de historias de usuario (product backlog priorizada).
 | null |HYST02 | null | null | null | null |
 | null |HYST03 | null | null | null | null |
 | null |HYST04 | null | null | null | null |
-| null |HYST05 | null | null | null | null |
-| null |HYST06 | null | null | null | null |
-| null |HYST07 | null | null | null | null |
-| null |HYST08 | null | null | null | null |
+| null |HYST05 | Ingresar horas extras | Como gerente, quiero colocar la cantidad de minutos de tardanza para realizar su descuento. | null | null |
+| null |HYST06 | Imprimir boleta de pago | Como gerente, quiero imprimir la boleta de pago de los trabajadores para archivar | null | null |
+| null |HYST07 | Calcular bonificación | Como gerente, quiero calcular la bonificación del trabajador en caso haya ingresado los datos para hallar bonificación. | null | null |
+| null |HYST08 | Calcular descuento | Como gerente, quiero calcular el descuento del trabajador en caso haya ingresado los datos para hallar el descuento. | null | null |
 | null |HYST09 | null | null | null | null |
 | null |HYST10 | null | null | null | null |
 | null |HYST11 | null | null | null | null |
 | null |HYST12 | null | null | null | null |
+<<<<<<< HEAD
 | null |HYST13 | null | null | null | null |
 | null |HYST14 | null | null | null | null |
 | null |HYST15 | null | null | null | null |
@@ -46,6 +47,16 @@ bonificacionSuplementaria=0.03*sueldoBasico.
  | null | null |
 | null |HYST20 | Remuneración computable | Como gerente deseo calcular el la remuneración computable en base al sueldo básico más las bonificaciones para aplicarlo en el sueldo del trabajador. Aplicando la siguiente fórmula: remuneracionComputable= sueldoBasico + movilidad + bonificacionSuplementaria
  | null | null |
+=======
+| null |HYST13 | Ver el historial de pagos de trabajador | Como gerente, quiero visualizar el historial de pagos de cada uno de mis trabajadores | null | null |
+| null |HYST14 | Calculo de bonificación suplementaria | Como gerente, quiero calcular y modificar los bonos correspondientes a mis trabajadores | null | null |
+| null |HYST15 | Cálculo de salario neto | Como gerente, quiero calcular y modificar el salario de mis trabajadores | null | null |
+| null |HYST16 | Actualizar tardanza | Como gerente, quiero ver los minutos de tardanzas de mis trabajadores para poder realizar cambios en su sueldo | null | null |
+| null |HYST17 | null | null | null | null |
+| null |HYST18 | null | null | null | null |
+| null |HYST19 | null | null | null | null |
+| null |HYST20 | null | null | null | null |
+>>>>>>> aed87326cefadd2d9b25e182ba42e1089f3b01bb
 | null |HYST21 | null | null | null | null |
 | null |HYST22 | null | null | null | null |
 | null |HYST23 | null | null | null | null |
