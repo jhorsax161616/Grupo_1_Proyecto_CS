@@ -27,10 +27,10 @@ Lista de historias de usuario (product backlog priorizada).
 | null |HYST06 | Imprimir boleta de pago | Como gerente, quiero imprimir la boleta de pago de los trabajadores para archivar | null | null |
 | null |HYST07 | Calcular bonificación | Como gerente, quiero calcular la bonificación del trabajador en caso haya ingresado los datos para hallar bonificación. | null | null |
 | null |HYST08 | Calcular descuento | Como gerente, quiero calcular el descuento del trabajador en caso haya ingresado los datos para hallar el descuento. | null | null |
-| null |HYST09 | null | null | null | null |
-| null |HYST10 | null | null | null | null |
-| null |HYST11 | null | null | null | null |
-| null |HYST12 | null | null | null | null |
+| null |HYST09 | Exportar historial de pagos del mes | Como gerente, quiero obtener un historial de pagos de los empleados mensualmente, para tener un registro de historial de pagos. | null | null |
+| null |HYST10 | Validación de datos ingresados | Como gerente,quiero validar los datos, para que no exista ningún dato suelto ni campos vacíos. | null | null |
+| null |HYST11 | Mostrar trabajadores | Como gerente, quiero visualizar una lista de todos los trabajadores, para poder administrar, seleccionar y realizar un control. | null | null |
+| null |HYST12 | Seleccionar trabajadores | Como gerente, quiero seleccionar a los trabajadores para poder aplicar algunos cambios en grupo. | null | null |
 | null |HYST13 | Ver el historial de pagos de trabajador | Como gerente, quiero visualizar el historial de pagos de cada uno de mis trabajadores | null | null |
 | null |HYST14 | Calculo de bonificación suplementaria | Como gerente, quiero calcular y modificar los bonos correspondientes a mis trabajadores | null | null |
 | null |HYST15 | Cálculo de salario neto | Como gerente, quiero calcular y modificar el salario de mis trabajadores | null | null |
