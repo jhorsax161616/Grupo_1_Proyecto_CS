@@ -10,7 +10,7 @@ Este proyecto está desarrollado por estudiantes de la Universidad Continental, 
 | 2         | Name |
 | 3         | Ingaroca Maldonado Jhim Sebastian |
 | 4         | Osorio Alanya Gianfranco          |
-| 5         | Name          |
+| 5         | Rosales Tapia Brad Jhomers        |
 | 6         | Zapata Medina Juan Diego |
 
 ## ÍTEM UNO
