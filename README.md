@@ -23,10 +23,10 @@ Lista de historias de usuario (product backlog priorizada).
 | null |HYST02 | null | null | null | null |
 | null |HYST03 | null | null | null | null |
 | null |HYST04 | null | null | null | null |
-| null |HYST05 | null | null | null | null |
-| null |HYST06 | null | null | null | null |
-| null |HYST07 | null | null | null | null |
-| null |HYST08 | null | null | null | null |
+| null |HYST05 | Ingresar horas extras | Como gerente, quiero colocar la cantidad de minutos de tardanza para realizar su descuento. | null | null |
+| null |HYST06 | Imprimir boleta de pago | Como gerente, quiero imprimir la boleta de pago de los trabajadores para archivar | null | null |
+| null |HYST07 | Calcular bonificación | Como gerente, quiero calcular la bonificación del trabajador en caso haya ingresado los datos para hallar bonificación. | null | null |
+| null |HYST08 | Calcular descuento | Como gerente, quiero calcular el descuento del trabajador en caso haya ingresado los datos para hallar el descuento. | null | null |
 | null |HYST09 | null | null | null | null |
 | null |HYST10 | null | null | null | null |
 | null |HYST11 | null | null | null | null |
