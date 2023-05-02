@@ -31,10 +31,10 @@ Lista de historias de usuario (product backlog priorizada).
 | null |HYST10 | null | null | null | null |
 | null |HYST11 | null | null | null | null |
 | null |HYST12 | null | null | null | null |
-| null |HYST13 | null | null | null | null |
-| null |HYST14 | null | null | null | null |
-| null |HYST15 | null | null | null | null |
-| null |HYST16 | null | null | null | null |
+| null |HYST13 | Ver el historial de pagos de trabajador | Como gerente, quiero visualizar el historial de pagos de cada uno de mis trabajadores | null | null |
+| null |HYST14 | Calculo de bonificación suplementaria | Como gerente, quiero calcular y modificar los bonos correspondientes a mis trabajadores | null | null |
+| null |HYST15 | Cálculo de salario neto | Como gerente, quiero calcular y modificar el salario de mis trabajadores | null | null |
+| null |HYST16 | Actualizar tardanza | Como gerente, quiero ver los minutos de tardanzas de mis trabajadores para poder realizar cambios en su sueldo | null | null |
 | null |HYST17 | null | null | null | null |
 | null |HYST18 | null | null | null | null |
 | null |HYST19 | null | null | null | null |
