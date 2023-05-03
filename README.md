@@ -19,10 +19,10 @@ Lista de historias de usuario (product backlog priorizada).
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Horas ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| null |HYST01 | Ingresar el nombre del trabajador | Como gerente, quiero colocar el nombre del trabajador para registrar a quien pagar el sueldo. | null | null |
-| null |HYST02 | Ingrese sueldo básico | null | null | null |
-| null |HYST03 | null | null | null | null |
-| null |HYST04 | null | null | null | null |
+| null |HYST01 | Ingresar el nombre del trabajador | Como gerente, quiero colocar el nombre del trabajador para registrar a quien pagar el sueldo. | 2 | null |
+| null |HYST02 | Ingresar sueldo básico | Como gerente, quiero ingresar el sueldo básico de cada trabajador para la consideración de su pago | 2 | null |
+| null |HYST03 | Ingresar días que no asistió | Como gerente, quiero colocar los días que faltó un trabajador para realizar el debido proceso de descuento | 3 | null |
+| null |HYST04 | Ingresar días que asistió tarde | Como gerente, quiero colocar la cantidad de días que el trabajador llegó tarde para el debido proceso de descuento.  | 3 | null |
 | null |HYST05 | Ingresar horas extras | Como gerente, quiero colocar la cantidad de minutos de tardanza para realizar su descuento. | null | null |
 | null |HYST06 | Imprimir boleta de pago | Como gerente, quiero imprimir la boleta de pago de los trabajadores para archivar | null | null |
 | null |HYST07 | Calcular bonificación | Como gerente, quiero calcular la bonificación del trabajador en caso haya ingresado los datos para hallar bonificación. | null | null |
