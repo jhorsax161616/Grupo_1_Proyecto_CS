@@ -1,0 +1,25 @@
+# Archivos y carpetas específicos del entorno virtual
+venv/
+*.pyc
+
+# Carpeta de archivos temporales
+__pycache__/
+
+# Archivos de registro
+*.log
+
+# Archivos generados por el IDE
+.vscode/
+.history/
+
+# Archivos de respaldo
+*~
+\#*\#
+
+# Archivos de configuración de usuario
+*.vscode/
+.settings/
+
+# Archivos de configuración de PyQt5
+*.ui
+*.qrc
