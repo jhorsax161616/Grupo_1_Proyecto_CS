@@ -36,10 +36,10 @@ Lista de historias de usuario (product backlog priorizada).
 | null |HYST15 | Cálculo de salario neto | Como gerente, quiero calcular y modificar el salario de mis trabajadores | null | null |
 | null |HYST16 | Actualizar tardanza | Como gerente, quiero ver los minutos de tardanzas de mis trabajadores para poder realizar cambios en su sueldo | null | null |
 | null |HYST17 | Pago por horas extras | Como gerente deseo calcular calcular él pago por horas extras  para agregar él bono al sueldo del trabajador  | null | null |
-| null |HYST18 | movilidad | Como gerente deseo generar la siguiente constante para poder realizar los cálculos posteriores. |null | null |
-| null |HYST19 | bonificación suplementarias | Como gerente deseo calcular las bonificaciones suplementarias para aplicarlos a los sueldos de los trabajadores. | null | null |
-| null |HYST20 | Remuneración computable | Como gerente deseo calcular el la remuneración computable en base al sueldo básico más las bonificaciones para aplicarlo en el sueldo del trabajador. | null | null |
-| null |HYST21 | null | null | null | null |
-| null |HYST22 | null | null | null | null |
-| null |HYST23 | null | null | null | null |
-| null |HYST24 | null | null | null | null |
+| null |HYST18 | Movilidad | Como gerente deseo generar la siguiente constante para poder realizar los cálculos posteriores. |null | null |
+| null |HYST19 | Bonificación suplementarias | Como gerente deseo calcular las bonificaciones suplementarias para aplicarlos a los sueldos de los trabajadores. | null | null |
+| null |HYST20 | Hallar emuneración computable | Como gerente deseo calcular el la remuneración computable en base al sueldo básico más las bonificaciones para aplicarlo en el sueldo del trabajador. | null | null |
+| null |HYST21 | Calcular descuento por tardanza | Como gerente deseo calcular el descuento por tardanza para aplicarlo en el sueldo del trabajador. | null | null |
+| null |HYST22 | Calcular descuento porfaltas | Como gerente deseo calcular el descuento por faltas para aplicarlo en el sueldo del trabajador | null | null |
+| null |HYST23 | Hallar emuneracion minima | Como gerente deseo calcular el la remuneración mínima en base al sueldo básico más las bonificaciones para aplicarlo en el sueldo del trabajador. | null | null |
+| null |HYST24 | Hallar descuentos Totales | Como gerente deseo calcular los descuentos totales para aplicarlo en el sueldo del trabajador. | null | null |
