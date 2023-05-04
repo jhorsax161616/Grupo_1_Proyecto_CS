@@ -1,17 +1,45 @@
-# Proyecto de Fin de Curso
+# Proyecto de Fin de Curso: "Salary Horizon 1.0"
 
-Este proyecto está desarrollado por estudiantes de la Universidad Continental, propuesto en el curso de ___Construcción de Software___ con la guía del docente [Daniel Gamarra Moreno](https://estudiantesavp.ucontinental.edu.pe/user/profile.php?id=9474), a quién agradecemos encarecidamente por su esfuerzo, apoyo y dedicación por brindarnos sus conocimientos.
+Este proyecto está desarrollado por estudiantes de la _Universidad Continental_, propuesto en el curso de ___Construcción de Software___ con la guía del docente [Daniel Gamarra Moreno](https://estudiantesavp.ucontinental.edu.pe/user/profile.php?id=9474), a quién agradecemos encarecidamente por su esfuerzo, apoyo y dedicación por brindarnos sus conocimientos.
 
-## Equipo de Desarrollo
+### Equipo de Desarrollo
 
-| __Integrante__  | __Apellidos y Nombres__  |
-|:-------------: |:---------------|
-| 1         | Cordova Poma Jhordan Sax |
-| 2         | Hilario Castro Kenss Lin Kadú |
-| 3         | Ingaroca Maldonado Jhim Sebastian |
-| 4         | Osorio Alanya Gianfranco          |
-| 5         | Rosales Tapia Brad Jhomers        |
-| 6         | Zapata Medina Juan Diego |
+| __Integrante__  | __Apellidos y Nombres__  | __Rol__ |
+|:-------------: |:---------------| :-----------------: |
+| 1         | Cordova Poma Jhordan Sax | Scrum Master |
+| 2         | Hilario Castro Kenss Lin Kadú | Developer |
+| 3         | Ingaroca Maldonado Jhim Sebastian | Product Owner |
+| 4         | Osorio Alanya Gianfranco          | Developer |
+| 5         | Rosales Tapia Brad Jhomers        | Developer |
+| 6         | Zapata Medina Juan Diego | Developer |
+
+## Descripción del proyecto
+La empresa Horizonte ha decidido implementar un sistema automatizado para el cálculo de los sueldos de sus empleados. Se quiere simplificar el proceso de cálculo y asegurarse de que los sueldos se calculen correctamente, evitando errores humanos y reduciendo el tiempo y los costos asociados con el cálculo manual de los sueldos.
+
+### Consigna
+#### El trabajador percibe las siguientes bonificaciones:
+1. Por cada hora extra se le paga 50% más que una hora normal.
+1. Bonificación por movilidad igual a 1000.
+1. Bonificación suplementaria igual al 3% del sueldo básico (sueldo).
+1. La bonificación total es la suma de todas las bonificaciones que percibe.
+
+#### Asimismo, el trabajador está sujeto a los siguientes descuentos:
+1. Las tardanzas y faltas se descuentan con respecto a remuneración computable. La remuneración computable es igual al sueldo básico más la suma de todas las bonificaciones excepto la bonificación por horas extras.
+1. El total de descuentos se obtiene sumando todos los descuentos.
+
+## Objetivos
+
+### Objetivo Principal
+- Desarrollar un software que permita a la empresa Horizonte calcular los sueldos de sus empleados de manera rápida, precisa y eficiente. Aplicando el desarrollo guiado por pruebas y control de versiones.
+ 
+
+### Objetivos Específicos
+- Permitir el ingreso de la información del empleado, incluyendo el sueldo básico y las horas trabajadas, en un formato fácil de usar.
+- Calcular automáticamente las bonificaciones correspondientes al empleado, incluyendo las bonificaciones por horas extras, movilidad y suplementarias.
+- Calcular automáticamente los descuentos correspondientes al empleado, incluyendo los descuentos por tardanzas y faltas.
+- Presentar un reporte de sueldos que muestre el sueldo bruto, las bonificaciones, los descuentos y el sueldo neto de cada empleado.
+- Permitir al empleador agregar bonificaciones adicionales o aplicar descuentos adicionales según sea necesario.
+- Proporcionar una interfaz (programa) para que los empleados puedan ingresar sus horas trabajadas, tardanzas y faltas, y revisar su historial de sueldos.
 
 ## ÍTEM UNO
 
