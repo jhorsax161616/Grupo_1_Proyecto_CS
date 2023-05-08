@@ -46,9 +46,9 @@ La empresa Horizonte ha decidido implementar un sistema automatizado para el cá
 - Permitir al empleador agregar bonificaciones adicionales o aplicar descuentos adicionales según sea necesario.
 - Proporcionar una interfaz (programa) para que los empleados puedan ingresar sus horas trabajadas, tardanzas y faltas, y revisar su historial de sueldos.
 
-## ÍTEM UNO
+## ÍTEM 1
 
-Lista de historias de usuario (product backlog priorizada).
+__Lista de historias de usuario (product backlog priorizada).__
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Horas ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
@@ -76,3 +76,7 @@ Lista de historias de usuario (product backlog priorizada).
 | 22 |HYST22 | Validar datos para evitar errores. | Como gerente, quiero validar los datos, para que no exista ningún dato suelto ni campos vacíos. | 1 | Zapata Medina |
 | 23 |HYST23 | Visualizar lista de trabajadores para administrar y controlar. | Como gerente, quiero visualizar una lista de todos los trabajadores, para poder administrar, seleccionar y realizar un control. | 2 | Zapata Medina |
 | 24 |HYST24 | Ver historial de pagos de cada trabajador como gerente. | Como gerente, quiero visualizar el historial de pagos de cada uno de mis trabajadores. | 3 | Zapata Medina |
+
+## Item 2
+
+![Modelo conceptual del proyecto](/others/img/diagrama_uml.png)
