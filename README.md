@@ -45,7 +45,7 @@ La empresa Horizonte ha decidido implementar un sistema automatizado para el cá
 - Mantener un registro de los recibos de cada trabajador, registrando los descuentos y su sueldo neto.
 - Proporcionar una interfaz (programa) para que los administradores puedan registrar trabajadores, sus horas trabajadas, tardanzas y faltas, y revisar el historial de sueldos e imprimir boletas de pago.
 
-## ÍTEM 1 - Product Backlog 📑
+## __ÍTEM 1 - Product Backlog__ 📑
 
 __Lista de historias de usuario (product backlog priorizada).__
 
@@ -86,6 +86,21 @@ __Lista de historias de usuario (product backlog priorizada).__
 | __Consistente__ | Conforme | Ingaroca Maldonado | ✔️ |
 | __Independiente__ | Conforme | Zapata Medina | ✔️ |
 
-## Item 2
+## __Ítem 2 - Modelo Conceptual__ 📟
 
-![Modelo conceptual del proyecto](/others/img/diagrama_uml.png)
+![Modelo conceptual del proyecto][Modelo Conceptual]
+
+### Glosario de Conceptos
+
+| Concepto | Descripción | Observaciones |
+| -------- | ----------- | ------------- |
+| Empleador |  |  |
+| Bonificación |  |  |
+| Descuento |  |  |
+| BoletaDePago |  |  |
+| Empleador-BoletaDePago |  |  |
+| Descuento-BoletaDePago |  |  |
+| Bonificacion-BoletaDePago |  |  |
+| Trabajador-BoletaDePago |  |  |
+
+[Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
