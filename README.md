@@ -45,7 +45,7 @@ La empresa Horizonte ha decidido implementar un sistema automatizado para el cá
 - Mantener un registro de los recibos de cada trabajador, registrando los descuentos y su sueldo neto.
 - Proporcionar una interfaz (programa) para que los administradores puedan registrar trabajadores, sus horas trabajadas, tardanzas y faltas, y revisar el historial de sueldos e imprimir boletas de pago.
 
-## ÍTEM 1 - Product Backlog
+## ÍTEM 1 - Product Backlog 📑
 
 __Lista de historias de usuario (product backlog priorizada).__
 
@@ -76,6 +76,15 @@ __Lista de historias de usuario (product backlog priorizada).__
 | 23 |HYST23 | Listar asistencia perfecta por mes | Como empleador, quiero ver una lista de los trabajadores que tuvieron asistencia perfecta en un mes, para poder imprimirlo. | 2 | Rosales Tapia |
 | 24 |HYST24 | Imprimir lista de asistencia perfecta del mes | Como empleador, quiero imprimir la lista de los trabajadores que tuvieron asistencia perfecta en un mes, para poder utilizarlo en otro proceso. | 3 | Zapata Medina |
 |  |  |  | __Total de puntos__ | __43__ |  |
+
+### __Revisión__
+
+| Criterio | Comentario | Realizado por | Solucionado |
+| :------- | :-----------------: | :------- | :--------:|
+| __Forma__ | Conforme | Rosales Tapia | ✔️ |
+| __Completo__ | Conforme | Cordova Poma | ✔️ |
+| __Consistente__ | Conforme | Ingaroca Maldonado | ✔️ |
+| __Independiente__ | Conforme | Zapata Medina | ✔️ |
 
 ## Item 2
 
