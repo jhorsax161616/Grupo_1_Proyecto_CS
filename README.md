@@ -45,36 +45,37 @@ La empresa Horizonte ha decidido implementar un sistema automatizado para el cá
 - Mantener un registro de los recibos de cada trabajador, registrando los descuentos y su sueldo neto.
 - Proporcionar una interfaz (programa) para que los administradores puedan registrar trabajadores, sus horas trabajadas, tardanzas y faltas, y revisar el historial de sueldos e imprimir boletas de pago.
 
-## ÍTEM 1
+## ÍTEM 1 - Product Backlog
 
 __Lista de historias de usuario (product backlog priorizada).__
 
-| __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Horas ideales)__  | __Responsable__  |
+| __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 |HYST01 | Login de empleador para acceder al software de administración. | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
-| 2 |HYST02 | Ingresar nombre y sueldo básico para calcular salario. | Como empleador, quiero ingresar el nombre y sueldo básico del trabajador para calcular su salario. | 2 | Cordova Poma |
-| 3 |HYST03 | Ingresar días trabajados para calcular el sueldo total. | Como empleador, quiero ingresar la cantidad de días trabajados por el empleado para calcular el sueldo total. | 3 | Cordova Poma |
-| 4 |HYST04 | Ingresar horas extras para la bonificación correspondiente. | Como empleador, quiero ingresar la cantidad de horas extras trabajadas por el empleado para agregar la bonificación correspondiente. | 3 | Cordova Poma |
-| 5 |HYST05 | Ingresar tardanzas y faltas para descontar del sueldo. | Como empleador, quiero poder ingresar la cantidad de tardanzas y faltas del empleado para descontarlas de su sueldo. | 2 | Hilario Castro |
-| 6 |HYST06 | Calcular automáticamente descuentos por tardanzas y faltas. | Como empleador, quiero que el programa calcule automáticamente el total de descuentos correspondientes a las tardanzas y faltas del empleado. | 2 | Hilario Castro |
-| 7 |HYST07 | Calcular automáticamente el sueldo neto del empleado. | Como empleador, quiero que el programa calcule automáticamente el sueldo neto del empleado restando los descuentos del sueldo total. | 3 | Hilario Castro |
-| 8 |HYST08 | Ingresa las fechas de inicio y fin del período de pago. | Como empleador, quiero poder ingresar la fecha de inicio y fin del período de pago para calcular el sueldo del empleado durante ese período. | 2 | Hilario Castro |
-| 9 |HYST09 | Calcular automáticamente el sueldo promedio en horas extras. | Como empleador, quiero que el programa calcule automáticamente el sueldo promedio del empleado si ha trabajado horas extras. | 3 | Ingaroca Maldonado |
-| 10 |HYST10 | Selección múltiple de trabajadores para aplicar cambios en grupo. | Como empleador, quiero seleccionar a los trabajadores para poder aplicar algunos cambios en grupo. | 3 | Ingaroca Maldonado |
-| 11 |HYST11 | Calcular automáticamente las bonificaciones correspondientes al empleado. | Como empleador, quiero que el programa calcule automáticamente el total de bonificaciones correspondientes al empleado, incluyendo las bonificaciones adicionales que he agregado. | 2 | Ingaroca Maldonado |
-| 12 |HYST12 | Alerta si el sueldo neto es menor al salario mínimo legal. | Como empleador, quiero que el programa muestre una alerta si el sueldo neto del empleado es menor que el salario mínimo legal para asegurarme de que estoy cumpliendo con las leyes laborales. | 2 | Ingaroca Maldonado |
-| 13 |HYST13 | Imprimir o exportar reporte de sueldos en diferentes formatos. | Como empleador, quiero poder imprimir o exportar el reporte de sueldos en diferentes formatos, como PDF o Excel. | 3 | Osorio Alanya |
-| 14 |HYST14 | Login de empleado para revisar cuenta y pagos. | Como empleado, deseo loguearme con una cuenta para empleado de tal manera qué pueda acceder al software y revisar mi cuenta, donde se especifica mis pagos y otros aspectos. | 2 | Osorio Alanya |
-| 15 |HYST15 | Ver sueldo bruto, bonificaciones, descuentos y sueldo neto en reporte de sueldos. | Como empleado, quiero poder ver mi sueldo bruto, bonificaciones, descuentos y sueldo neto en el reporte de sueldos para verificar que se me haya pagado correctamente. | 3 | Osorio Alanya |
-| 16 |HYST16 | Ver horas trabajadas, extras, tardanzas y faltas en reporte de sueldos. | Como empleado, quiero poder ver las horas trabajadas, las horas extras y las tardanzas y faltas en el reporte de sueldos para asegurarme de que se hayan registrado correctamente. | 2 | Osorio Alanya |
-| 17 |HYST17 | Solicitar revisión de sueldo si se cree que no corresponde. | Como empleado, quiero poder solicitar una revisión de mi sueldo si creo que se me ha pagado menos de lo que corresponde según las horas trabajadas y las bonificaciones correspondientes. | 3 | Rosales Tapia |
-| 18 |HYST18 | Ver historial de pagos anteriores. | Como empleado, quiero poder ver mi historial de pagos para verificar que se me haya pagado correctamente en períodos anteriores. | 2 | Rosales Tapia |
-| 19 |HYST19 | Solicitar el adelanto de sueldo si se necesita. | Como empleado, quiero poder solicitar una reunión con el jefe de RR.HH, el que se encargará de poder brindar un adelanto de sueldo si necesito dinero antes de la fecha de pago habitual. | 3 | Rosales Tapia |
-| 20 |HYST20 | Solicitar corrección en cálculo de sueldo. | Como empleado, quiero poder solicitar una corrección en el cálculo del sueldo si encuentro algún error en las horas trabajadas, las bonificaciones o los descuentos. | 3 | Rosales Tapia |
-| 21 |HYST21 | Obtener historial de pagos mensualmente como gerente. | Como gerente, quiero obtener un historial de pagos de los empleados mensualmente, para tener un registro de historial de pagos. | 2 | Zapata Medina |
-| 22 |HYST22 | Validar datos para evitar errores. | Como gerente, quiero validar los datos, para que no exista ningún dato suelto ni campos vacíos. | 1 | Zapata Medina |
-| 23 |HYST23 | Visualizar lista de trabajadores para administrar y controlar. | Como gerente, quiero visualizar una lista de todos los trabajadores, para poder administrar, seleccionar y realizar un control. | 2 | Zapata Medina |
-| 24 |HYST24 | Ver historial de pagos de cada trabajador como gerente. | Como gerente, quiero visualizar el historial de pagos de cada uno de mis trabajadores. | 3 | Zapata Medina |
+| 1 |HYST01 | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 2 |HYST02 | Registro de nuevo trabajador | Como empleador, deseo registrar a un empleado incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
+| 3 |HYST03 | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
+| 4 |HYST04 | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
+| 5 |HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
+| 6 |HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
+| 7 |HYST07 | Buscar trabajador por apellidos y nombres | Como empleador, quiero poder buscar a un trabajador por su nombre, para poder seleccionarlo. | 1 | Ingaroca Maldonado |
+| 8 |HYST08 | Listar trabajadores | Como empleador, quiero obtener una lista de los trabajadores registrados y sus datos para poder utilizarlos en otro proceso. | 2 | Hilario Castro |
+| 9 |HYST09 | Ingresar horas extras | Como empleador, quiero ingresar la cantidad de horas extras trabajadas por el trabajador para el cálculo de la bonificación correspondiente. | 1 | Zapata Medina |
+| 10 |HYST10 | Marcar bonificación por movilidad | Como empleador, quiero poder marcar si a un trabajador le corresponde la bonificación por movilidad, para que se incremente en su sueldo. | 1 | Rosales Tapia |
+| 11 |HYST11 | Marcar bonificación suplementaria | Como empleador, quiero poder marcar si a un trabajador le corresponde la bonificación suplementaria, para que se incremente en su sueldo. | 1 | Osorio Alanya |
+| 12 |HYST12 | Ingresar días de falta | Como empleador, quiero ingresar la cantidad de días que un trabajador faltó, para el cálculo del respectivo descuento. | 1 | Ingaroca Maldonado |
+| 13 |HYST13 | Ingresar minutos de tardanza | Como empleador, quiero ingresar la cantidad de minutos que un trabajador tiene de tardanza, para el cálculo del respectivo descuento. | 1 | Osorio Alanya |
+| 14 |HYST14 | Calcular automáticamente descuento neto | Como empleador, quiero que el programa calcule automáticamente el valor neto de descuento correspondiente a las tardanzas y faltas del trabajador, para su registro. | 2 | Cordova Poma |
+| 15 |HYST15 | Calcular automáticamente bonificación neta | Como empleador, quiero que el programa calcule automáticamente el valor neto de bonificación, para su registro. | 2 | Hilario Castro |
+| 16 |HYST16 | Calcular automáticamente el sueldo neto | Como empleador, quiero que el programa calcule automáticamente el sueldo neto del empleado, para poder realizar su pago. | 2 | Ingaroca Maldonado |
+| 17 |HYST17 | Visualizar boletas de trabajador | Como empleador, quiero visualizar las boletas de pago correspondiente a un trabajador, para su selección. | 1 | Rosales Tapia |
+| 18 |HYST18 | Imprimir boleta de pago | Como empleador, quiero poder imprimir una boleta de pago del trabajador, para poder utilizarlo en otro proceso. | 3 | Cordova Poma |
+| 19 |HYST19 | Listar pagos por mes | Como empleador, quiero ver una lista de pagos a realizar por mes, para poder imprimirlo. | 1 | Hilario Castro |
+| 20 |HYST20 | Imprimir lista de pagos del mes | Como empleador, quiero poder imprimir la lista de pagos de un mes, para poder llevar un registro físico. | 3 | Zapata Medina |
+| 21 |HYST21 | Visualizar reporte económico general del mes | Como empleador, quiero visualizar un reporte económico general del mes, para poder redactar un informe. | 4 | Cordova Poma |
+| 22 |HYST22 | Enviar boleta de pago por correo | Como empleador, quiero poder enviar una boleta de pago al trabajador, para su notificación inmediata. | 3 | Cordova Poma |
+| 23 |HYST23 | Listar asistencia perfecta por mes | Como empleador, quiero ver una lista de los trabajadores que tuvieron asistencia perfecta en un mes, para poder imprimirlo. | 2 | Rosales Tapia |
+| 24 |HYST24 | Imprimir lista de asistencia perfecta del mes | Como empleador, quiero imprimir la lista de los trabajadores que tuvieron asistencia perfecta en un mes, para poder utilizarlo en otro proceso. | 3 | Zapata Medina |
+|  |  |  | __Total de puntos__ | __43__ |  |
 
 ## Item 2
 
