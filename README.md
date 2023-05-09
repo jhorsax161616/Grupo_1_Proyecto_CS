@@ -15,7 +15,7 @@ Este proyecto está desarrollado por estudiantes de la _Universidad Continental_
 
 ## Descripción del proyecto
 
-La empresa Horizonte ha decidido implementar un sistema automatizado para el cálculo de los sueldos de sus empleados. Se quiere simplificar el proceso de cálculo y asegurarse de que los sueldos se calculen correctamente, evitando errores humanos y reduciendo el tiempo y los costos asociados con el cálculo manual de los sueldos.
+La empresa Horizonte ha decidido implementar un sistema automatizado para el cálculo de los sueldos de sus trabajadores. Se quiere simplificar el proceso de cálculo y asegurarse de que los sueldos se calculen correctamente, evitando errores humanos y reduciendo el tiempo y los costos asociados con el cálculo manual de los sueldos.
 
 ### Consigna
 
@@ -35,16 +35,15 @@ La empresa Horizonte ha decidido implementar un sistema automatizado para el cá
 
 ### Objetivo Principal
 
-- Desarrollar un software que permita a la empresa Horizonte calcular los sueldos de sus empleados de manera rápida, precisa y eficiente. Aplicando el desarrollo guiado por pruebas y control de versiones.
+- Desarrollar un software que permita a la empresa Horizonte calcular los sueldos de sus trabajadores de manera rápida, precisa y eficiente. Aplicando el desarrollo guiado por pruebas y control de versiones.
 
 ### Objetivos Específicos
 
-- Permitir el ingreso de la información del empleado, incluyendo el sueldo básico y las horas trabajadas, en un formato fácil de usar.
-- Calcular automáticamente las bonificaciones correspondientes al empleado, incluyendo las bonificaciones por horas extras, movilidad y suplementarias.
-- Calcular automáticamente los descuentos correspondientes al empleado, incluyendo los descuentos por tardanzas y faltas.
-- Presentar un reporte de sueldos que muestre el sueldo bruto, las bonificaciones, los descuentos y el sueldo neto de cada empleado.
-- Permitir al empleador agregar bonificaciones adicionales o aplicar descuentos adicionales según sea necesario.
-- Proporcionar una interfaz (programa) para que los empleados puedan ingresar sus horas trabajadas, tardanzas y faltas, y revisar su historial de sueldos.
+- Permitir el ingreso de la información del trabajador, incluyendo su sueldo básico.
+- Calcular automáticamente las bonificaciones correspondientes al trabajador, incluyendo las bonificaciones por horas extras, movilidad y suplementarias.
+- Calcular automáticamente los descuentos correspondientes al trabajador, incluyendo los descuentos por tardanzas y faltas.
+- Mantener un registro de los recibos de cada trabajador, registrando los descuentos y su sueldo neto.
+- Proporcionar una interfaz (programa) para que los administradores puedan registrar trabajadores, sus horas trabajadas, tardanzas y faltas, y revisar el historial de sueldos e imprimir boletas de pago.
 
 ## ÍTEM 1
 
