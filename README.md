@@ -142,10 +142,10 @@ Se muestran las historias de usuario de una forma más detallada.
 | __Nombre (alias)__ | Login de empleador para acceder al software de administración. |
 | __Descripción__ | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. |
 | __Puntos de historia (Horas Ideaales)__ | 2 |
-| __Criterios de aceptación__ | Al abrir el software, se presentará una pantalla con espacios en blanco donde se solicitará el ID y contraseña del usuario.  |
-|| Cuando se completen los espacios en blanco, el usuario deberá hacer click en el botón “Login” para acceder a otra ventana. |
-|| Si el usuario se equivocó en algún espacio en blanco, el usuario podrá dar click en el botón “Cancel” para volver a escribir sus datos. |
-|| Si el usuario se olvidó su contraseña, podrá hacer click en “Forgot Password” para recuperar su contraseña. |
+| __Criterios de aceptación__ | Al abrir el software, se presentará una pantalla con espacios en blanco donde se solicitará el ID y contraseña del empleador.  |
+|| Cuando se completen los espacios en blanco, el empleador deberá hacer click en el botón “Login” para acceder a otra ventana. |
+|| Si el empleador se equivocó en algún espacio en blanco, el empleador podrá dar click en el botón “Cancel” para volver a escribir sus datos. |
+|| Si el empleador olvidó su contraseña, podrá hacer click en “Forgot Password” para recuperar su contraseña. |
 
 #### __Revisión 01__
 
@@ -169,12 +169,12 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Identificador | HYST02 |
 | :---------- | :-------- |
-| __Nombre (alias)__ | Registro de nuevo empleado |
+| __Nombre (alias)__ | Registro de nuevo trabajador |
 | __Descripción__ | Como empleador, deseo registrar a un trabajador, para actualizar el registro en la base de datos. |
 | __Puntos de historia (Horas Ideaales)__ | 1 |
-| __Criterios de aceptación__ | Al seleccionar la opción de "Registrar Trabajador", se debe presentar al usuario una pantalla con diferentes espacios en blanco en donde solicitan información del empleado.  |
-|| Cuando él usuario termine de completar los espacios en blanco, asegurarse de guardar él nuevo registro del trabajador con él botón “agregar”. |
-|| Si el usuario decide cancelar él registro  del trabajador, no se deben guardar los cambios en la base de datos y se debe borrar todos los espacios en blanco anteriormente rellenados . |
+| __Criterios de aceptación__ | Al seleccionar la opción de "Registrar Trabajador", se debe presentar al empleador una pantalla con diferentes espacios en blanco en donde solicitan información del trabajador.  |
+|| Cuando el empleador termine de completar los espacios en blanco, asegurarse de guardar el nuevo registro del trabajador con el botón “agregar”. |
+|| Si el empleador decide cancelar el registro  del trabajador, no se deben guardar los cambios en la base de datos y se debe borrar todos los espacios en blanco anteriormente rellenados . |
 || Si el nuevo trabajador que quiere registrarse ingresa datos erróneos, o se salta alguna casilla no podrá realizar el registro y saltará una notificación que comunique la revisión de que  los datos sean correctos. |
 
 #### __Revisión 02__
@@ -189,9 +189,9 @@ Se muestran las historias de usuario de una forma más detallada.
 | __Pequeña__ | La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionamiento. | Rosales Tapia | ✔️ |
 | __Comprobable__ | La historia de usuario es  sumamente específica. | Rosales Tapia | ✔️ |
 
-<!-- #### __Wireframe 02__
+#### __Wireframe 02__
 
-![][] -->
+![Registrar nuevo trabajador GUI][Registrar_Trabajador]
 
 ----
 
@@ -224,5 +224,37 @@ Se muestran las historias de usuario de una forma más detallada.
 ![][] -->
 
 ----
+
+### __HYST04__
+
+| Identificador | HYST04 |
+| :---------- | :-------- |
+| __Nombre (alias)__ | Eliminar Trabajador |
+| __Descripción__ | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. |
+| __Puntos de historia (Horas Ideaales)__ | 1 |
+| __Criterios de aceptación__ | Si se decide eliminar a un trabajador, al momento de seleccionar “eliminar trabajador” se rellenará un registro donde se especifica la fecha, hora y el motivo por el cual se está llevando a cabo la eliminación del trabajador. |
+|| Si se desea continuar con el proceso, al momento de seleccionar “continuar” saldra una notificacion en donde se requerirá la confirmación de seguridad en donde se mostrara dos opciones “1 continuar”  y “2 deshacer cambios”. |
+|| Cuando se haya eliminado el trabajador también se eliminará de la base de datos de los trabajadores actuales. |
+|| Para cuando se haya eliminado al trabajador, el sistema debe actualizar automáticamente cualquier registro relacionado con el trabajador que se eliminó. |
+
+#### __Revisión 04__
+
+| Criterio | Comentario | Realizado por | Solucionado |
+| :-------- | :--------- | :----------| :--------:|
+| __Completo__ | Se describen todas las funcionalidades necesarias para eliminar un trabajador. | Rosales Tapia | ✔️ |
+| __Consistente__ | La historia de usuario es coherente con los objetivos y requisitos generales del proyecto. | Rosales Tapia | ✔️ |
+| __Negocible__ | La historia de usuario es flexible y se puede ajustar durante el proceso de desarrollo para adaptarse a los cambios en los requisitos del proyecto.  | Rosales Tapia | ✔️ |
+| __Valiosa__ | La funcionalidad de eliminar trabajadores es crucial para el correcto mantenimiento de los registros de los trabajadores. | Rosales Tapia | ✔️ |
+| __Estimable__ | La historia de usuario se puede estimar con precisión en términos de tiempo y esfuerzo requerido para completarla. | Rosales Tapia | ✔️ |
+| __Pequeña__ | La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionalidad. | Rosales Tapia | ✔️ |
+| __Comprobable__ | La historia de usuario es lo suficientemente específica como para que se pueda comprobar su implementación en el sistema. | Rosales Tapia | ✔️ |
+
+<!-- #### __Wireframe 04__
+
+![][] -->
+
+----
+
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
 [Login]: /others/img/login.jpg
+[Registrar_Trabajador]: /others/img/registrar_Trabajador.PNG
