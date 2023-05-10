@@ -55,9 +55,9 @@ __Lista de historias de usuario (product backlog priorizada).__
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
 | 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
 | 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador, incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
-| 3 | HYST03 | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
-| 4 | HYST04 | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
-| 5 | HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
+| 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
+| 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
+| 5 | [HYST05](#hyst05) | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
 | 6 | HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
 | 7 | HYST07 | Buscar trabajador por apellidos y nombres | Como empleador, quiero poder buscar a un trabajador por su nombre, para poder seleccionarlo. | 1 | Ingaroca Maldonado |
 | 8 | HYST08 | Listar trabajadores | Como empleador, quiero obtener una lista de los trabajadores registrados y sus datos para poder utilizarlos en otro proceso. | 2 | Hilario Castro |
@@ -123,9 +123,9 @@ El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprin
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
 | 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
 | 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
-| 3 | HYST03 | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
-| 4 | HYST04 | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
-| 5 | HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
+| 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
+| 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
+| 5 | [HYST05](#hyst05) | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
 | 6 | HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
 |  |  |  | __Total de puntos__ | __9__ |  |
 
@@ -255,6 +255,67 @@ Se muestran las historias de usuario de una forma más detallada.
 
 ----
 
+### __HYST05__
+
+| Identificador | HYST05 |
+| :---------- | :-------- |
+| __Nombre (alias)__ | Buscar Trabajador por DNI |
+| __Descripción__ | Como empleador, quiero poder buscar a un Trabajador por su número de DNI, para poder seleccionarlo. |
+| __Puntos de historia (Horas Ideaales)__ | 2 |
+| __Criterios de aceptación__ | Al ingresar el DNI debe de tener los 8 caracteres.  |
+|| Al ingresar el DNI no debe permitir letras. |
+|| Al ingresar el DNI no debe permitir caracteres especiales |
+|| Al realizar la búsqueda del trabajador se mostrará su ficha con los datos rellenados en su registro. |
+
+#### __Revisión 05__
+
+| Criterio | Comentario | Realizado por | Solucionado |
+| :-------- | :--------- | :----------| :--------:|
+| __Completo__ | La historia está completa y cumple con su propósito de buscar un trabajador con la primary key “DNI”. | Zapata Medina | ✔️ |
+| __Consistente__ | Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito. | Zapata Medina | ✔️ |
+| __Negocible__ | Es negociable a cambios de ser necesario, por practicidad o costumbre del usuario. | Zapata Medina | ✔️ |
+| __Valiosa__ | Es muy valiosa ya que sin esta historia de usuario seria difisil encontrar a los usuarios y aplicar los cambios en torno a su sueldo. | Zapata Medina | ✔️ |
+| __Estimable__ | Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo. | Zapata Medina | ✔️ |
+| __Pequeña__ | Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo, a su vez considerando su entrega rápida. | Zapata Medina | ✔️ |
+| __Comprobable__ | Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible. | Zapata Medina | ✔️ |
+
+#### __Wireframe 05__
+
+![Buscar por DNI][Buscar_DNI]
+
+----
+
+### __HYST06__
+
+| Identificador | HYST06 |
+| :---------- | :-------- |
+| __Nombre (alias)__ | Seleccionar trabajador |
+| __Descripción__ | Como empleador, quiero poder seleccionar un trabajador, para poder administrar y registrar sus datos respecto al sueldo. |
+| __Puntos de historia (Horas Ideaales)__ | 1 |
+| __Criterios de aceptación__ | Luego de encontrar un trabajador, al hacer click en el resultado este debe de oscurecerse, o tomar un tono oscuro, señalando que se ha seleccionado.  |
+|| Al hacer doble click en la fila del Empleado encontrado, deberá mostrar los datos de este trabajador, acompañado de un botón de editar o eliminar, para fácil acceso. |
+|| En caso de no encontrar un trabajador registrado se mostrará una alerta que indica que: El trabajador no ha sido encontrado. |
+
+#### __Revisión 06__
+
+| Criterio | Comentario | Realizado por | Solucionado |
+| :-------- | :--------- | :----------| :--------:|
+| __Completo__ | Está completa y forma parte de otra historia, por lo que su funcionamiento puede afectar otros procedures. | Zapata Medina | ✔️ |
+| __Consistente__ | Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito. | Zapata Medina | ✔️ |
+| __Negocible__ | No es negociable a cambios, por practicidad o costumbre del usuario, se recomienda mantener esta historia como tal, llegando así a una comprensión del funcionamiento. | Zapata Medina | ✔️ |
+| __Valiosa__ | Es valiosa ya que permite seleccionar un trabajador para luego aplicar cambios en sus datos. | Zapata Medina | ✔️ |
+| __Estimable__ | Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo. | Zapata Medina | ✔️ |
+| __Pequeña__ | Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo. | Zapata Medina | ✔️ |
+| __Comprobable__ | Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible. | Zapata Medina | ✔️ |
+
+#### __Wireframe 06__
+
+![Seleccionar Trabajador][Seleccionar_Trabajador]
+
+----
+
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
 [Login]: /others/img/login.jpg
 [Registrar_Trabajador]: /others/img/registrar_Trabajador.PNG
+[Buscar_DNI]: /others/img/buscar_por_DNI.PNG
+[Seleccionar_Trabajador]: /others/img/seleccionar_Trabajador.PNG
