@@ -314,8 +314,17 @@ Se muestran las historias de usuario de una forma más detallada.
 
 ----
 
+## Ítem 6 - Definición de Hecho
+
+Todos los criterios de aceptación de cada ítem del producto backlog se han validado y aceptado por el dueño del producto, el trabajo de cada miembro del equipo ha sido revisado por al menos otro miembro del equipo y todo tiene que estar documentado y con sus respectivos casos de prueba.
+
+## Ítem 7 - Diseño UML
+
+![Diseño del diagrama UML][Diagrama_UML]
+
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
 [Login]: /others/img/login.jpg
 [Registrar_Trabajador]: /others/img/registrar_Trabajador.PNG
 [Buscar_DNI]: /others/img/buscar_por_DNI.PNG
 [Seleccionar_Trabajador]: /others/img/seleccionar_Trabajador.PNG
+[Diagrama_UML]: /others/img/diagrama_UML.PNG
