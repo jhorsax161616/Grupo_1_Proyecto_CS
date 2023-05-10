@@ -294,7 +294,7 @@ Se muestran las historias de usuario de una forma más detallada.
 | __Descripción__ | Como empleador, quiero poder seleccionar un trabajador, para poder administrar y registrar sus datos respecto al sueldo. |
 | __Puntos de historia (Horas Ideaales)__ | 1 |
 | __Criterios de aceptación__ | Luego de encontrar un trabajador, al hacer click en el resultado este debe de oscurecerse, o tomar un tono oscuro, señalando que se ha seleccionado.  |
-|| Al hacer doble click en la fila del Empleado encontrado, deberá mostrar los datos de este trabajador, acompañado de un botón de editar o eliminar, para fácil acceso. |
+|| Al hacer doble click en la ficha del Empleado encontrado, deberá mostrar los datos de este trabajador, esta ficha está acompañada de botones para seleccionar, editar y eliminar, que son para fácil acceso. |
 || En caso de no encontrar un trabajador registrado se mostrará una alerta que indica que: El trabajador no ha sido encontrado. |
 
 #### __Revisión 06__
