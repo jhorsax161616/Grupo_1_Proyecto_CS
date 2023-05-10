@@ -53,8 +53,8 @@ __Lista de historias de usuario (product backlog priorizada).__
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 | [HYST01](/README.md#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
-| 2 | HYST02 | Registro de nuevo trabajador | Como empleador, deseo registrar a un empleado incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
+| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador, incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
 | 3 | HYST03 | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
 | 4 | HYST04 | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
 | 5 | HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
@@ -68,7 +68,7 @@ __Lista de historias de usuario (product backlog priorizada).__
 | 13 | HYST13 | Ingresar minutos de tardanza | Como empleador, quiero ingresar la cantidad de minutos que un trabajador tiene de tardanza, para el cálculo del respectivo descuento. | 1 | Osorio Alanya |
 | 14 | HYST14 | Calcular automáticamente descuento neto | Como empleador, quiero que el programa calcule automáticamente el valor neto de descuento correspondiente a las tardanzas y faltas del trabajador, para su registro. | 2 | Cordova Poma |
 | 15 | HYST15 | Calcular automáticamente bonificación neta | Como empleador, quiero que el programa calcule automáticamente el valor neto de bonificación, para su registro. | 2 | Hilario Castro |
-| 16 | HYST16 | Calcular automáticamente el sueldo neto | Como empleador, quiero que el programa calcule automáticamente el sueldo neto del empleado, para poder realizar su pago. | 2 | Ingaroca Maldonado |
+| 16 | HYST16 | Calcular automáticamente el sueldo neto | Como empleador, quiero que el programa calcule automáticamente el sueldo neto del trabajador, para poder realizar su pago. | 2 | Ingaroca Maldonado |
 | 17 | HYST17 | Visualizar boletas de trabajador | Como empleador, quiero visualizar las boletas de pago correspondiente a un trabajador, para su selección. | 1 | Rosales Tapia |
 | 18 | HYST18 | Imprimir boleta de pago | Como empleador, quiero poder imprimir una boleta de pago del trabajador, para poder utilizarlo en otro proceso. | 3 | Cordova Poma |
 | 19 | HYST19 | Listar pagos por mes | Como empleador, quiero ver una lista de pagos a realizar por mes, para poder imprimirlo. | 1 | Hilario Castro |
@@ -121,8 +121,8 @@ El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprin
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 | [HYST01](/README.md#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
-| 2 | HYST02 | Registro de nuevo trabajador | Como empleador, deseo registrar a un empleado incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
+| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
 | 3 | HYST03 | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
 | 4 | HYST04 | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
 | 5 | HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
@@ -132,6 +132,8 @@ El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprin
 ## __Ítem 5 - Historias de Usuario__ 📜
 
 Se muestran las historias de usuario de una forma más detallada.
+
+----
 
 ### __HYST01__
 
@@ -145,7 +147,7 @@ Se muestran las historias de usuario de una forma más detallada.
 || Si el usuario se equivocó en algún espacio en blanco, el usuario podrá dar click en el botón “Cancel” para volver a escribir sus datos. |
 || Si el usuario se olvidó su contraseña, podrá hacer click en “Forgot Password” para recuperar su contraseña. |
 
-#### Revisión
+#### __Revisión 01__
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
@@ -157,9 +159,40 @@ Se muestran las historias de usuario de una forma más detallada.
 | __Pequeña__ | Aceptado | Osorio Alanya | ✔️ |
 | __Comprobable__ | Aceptado | Osorio Alanya | ✔️ |
 
-#### Wireframe
+#### __Wireframe 01__
 
 ![Login del empleador|80][Login]
 
+----
+
+### __HYST02__
+
+| Identificador | HYST02 |
+| :---------- | :-------- |
+| __Nombre (alias)__ | Registro de nuevo empleado |
+| __Descripción__ | Como empleador, deseo registrar a un trabajador, para actualizar el registro en la base de datos. |
+| __Puntos de historia (Horas Ideaales)__ | 1 |
+| __Criterios de aceptación__ | Al seleccionar la opción de "Registrar Trabajador", se debe presentar al usuario una pantalla con diferentes espacios en blanco en donde solicitan información del empleado.  |
+|| Cuando él usuario termine de completar los espacios en blanco, asegurarse de guardar él nuevo registro del trabajador con él botón “agregar”. |
+|| Si el usuario decide cancelar él registro  del trabajador, no se deben guardar los cambios en la base de datos y se debe borrar todos los espacios en blanco anteriormente rellenados . |
+|| Si el nuevo trabajador que quiere registrarse ingresa datos erróneos, o se salta alguna casilla no podrá realizar el registro y saltará una notificación que comunique la revisión de que  los datos sean correctos. |
+
+#### __Revisión 02__
+
+| Criterio | Comentario | Realizado por | Solucionado |
+| :-------- | :--------- | :----------| :--------:|
+| __Completo__ | La historia de usuario “Registro de nuevo empleado” describe todas las funcionalidades necesarias para el registro de un nuevo empleado. | Rosales Tapia | ✔️ |
+| __Consistente__ | El historial del usuario es consistente con el propósito general y los requisitos del proyecto. | Rosales Tapia | ✔️ |
+| __Negocible__ | La historia de usuario es flexible y se puede ajustar en el proceso de desarrollo para adaptarse a los cambios en los requisitos para el proyecto. | Rosales Tapia | ✔️ |
+| __Valiosa__ | La historia de usuario trabajada da un valor real para los usuarios finales. | Rosales Tapia | ✔️ |
+| __Estimable__ | La historia de usuario se puede estimar con gran precisión  en términos de tiempo y esfuerzo que son necesarios para completarlo. | Rosales Tapia | ✔️ |
+| __Pequeña__ | La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionamiento. | Rosales Tapia | ✔️ |
+| __Comprobable__ | La historia de usuario es  sumamente específica. | Rosales Tapia | ✔️ |
+
+<!-- #### __Wireframe 02__
+
+![][] -->
+
+----
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
 [Login]: /others/img/login.jpg
