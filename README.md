@@ -83,10 +83,10 @@ __Lista de historias de usuario (product backlog priorizada).__
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :------- | :-----------------: | :------- | :--------:|
-| __Forma__ | Conforme | Rosales Tapia | ✔️ |
-| __Completo__ | Conforme | Cordova Poma | ✔️ |
-| __Consistente__ | Conforme | Ingaroca Maldonado | ✔️ |
-| __Independiente__ | Conforme | Zapata Medina | ✔️ |
+| __Forma__ | _Conforme_ | _Rosales Tapia_ | ✔️ |
+| __Completo__ | _Conforme_ | _Cordova Poma_ | ✔️ |
+| __Consistente__ | _Conforme_ | _Ingaroca Maldonado_ | ✔️ |
+| __Independiente__ | _Conforme_ | _Zapata Medina_ | ✔️ |
 
 ## __Ítem 2 - Modelo Conceptual__ 📟
 
@@ -113,6 +113,20 @@ Se está considerando seis desarrolladores, de los cuales se dedica el 15% del t
 6 * 10 * 0.15 = 9 puntos de historia
 ```
 
-El equipo de desarrollo ontuvo una velocidad de 9 puntos de historia por __Sprint__. Por lo tanto la cantidad de puntos de historia por cada Sprint no deberían superar este indicador.
+El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprint__. Por lo tanto la cantidad de puntos de historia por cada Sprint no deberían superar este indicador.
+
+## __Ítem 4 - Sprint Backlog__ 📇
+
+### __Sprint 1__
+
+| __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
+|:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
+| 1 |HYST01 | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 2 |HYST02 | Registro de nuevo trabajador | Como empleador, deseo registrar a un empleado incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
+| 3 |HYST03 | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
+| 4 |HYST04 | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
+| 5 |HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
+| 6 |HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
+|  |  |  | __Total de puntos__ | __9__ |  |
 
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
