@@ -194,5 +194,35 @@ Se muestran las historias de usuario de una forma más detallada.
 ![][] -->
 
 ----
+
+### __HYST03__
+
+| Identificador | HYST03 |
+| :---------- | :-------- |
+| __Nombre (alias)__ | Editar Empleado |
+| __Descripción__ | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. |
+| __Puntos de historia (Horas Ideaales)__ | 2 |
+| __Criterios de aceptación__ | Al seleccionar la opción de "Editar Trabajador", se debe presentar al empleador una pantalla con los datos actuales del trabajador.  |
+|| El empleador debe poder modificar cualquier campo de los datos del trabajador. |
+|| Si el empleador decide cancelar la edición del trabajador, no se deben guardar los cambios en la base de datos y se debe volver a la pantalla anterior sin realizar ninguna acción. |
+|| Si el empleador intenta guardar cambios con datos inválidos, se debe mostrar un mensaje de error indicando cuál campo tiene un valor no válido. |
+
+#### __Revisión 03__
+
+| Criterio | Comentario | Realizado por | Solucionado |
+| :-------- | :--------- | :----------| :--------:|
+| __Completo__ | Tiene una descripción detallada de lo que se espera de la funcionalidad y los datos específicos que se necesitan actualizar. | HIlario Castro | ✔️ |
+| __Consistente__ | Es coherente con los objetivos generales del sistema y está alineada con las necesidades de los usuarios. | HIlario Castro | ✔️ |
+| __Negocible__ | Hay cierto margen para ajustar los detalles de la implementación, siempre y cuando se mantenga el objetivo general y la funcionalidad básica. | HIlario Castro | ✔️ |
+| __Valiosa__ | Se considera valiosa, ya que permite mantener actualizada la información de los trabajadores de manera efectiva.   | HIlario Castro | ✔️ |
+| __Estimable__ | La historia de usuario es fácilmente estimable, ya que involucra una tarea clara y definida. | HIlario Castro | ✔️ |
+| __Pequeña__ | Es una tarea relativamente pequeña y manejable. | HIlario Castro | ✔️ |
+| __Comprobable__ | Es posible probar la funcionalidad y validar si se cumplen todos los requisitos. | HIlario Castro | ✔️ |
+
+<!-- #### __Wireframe 03__
+
+![][] -->
+
+----
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
 [Login]: /others/img/login.jpg
