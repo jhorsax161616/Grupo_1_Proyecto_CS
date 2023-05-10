@@ -58,7 +58,7 @@ __Lista de historias de usuario (product backlog priorizada).__
 | 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
 | 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
 | 5 | [HYST05](#hyst05) | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
-| 6 | HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
+| 6 | [HYST06](#hyst06) | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
 | 7 | HYST07 | Buscar trabajador por apellidos y nombres | Como empleador, quiero poder buscar a un trabajador por su nombre, para poder seleccionarlo. | 1 | Ingaroca Maldonado |
 | 8 | HYST08 | Listar trabajadores | Como empleador, quiero obtener una lista de los trabajadores registrados y sus datos para poder utilizarlos en otro proceso. | 2 | Hilario Castro |
 | 9 | HYST09 | Ingresar horas extras | Como empleador, quiero ingresar la cantidad de horas extras trabajadas por el trabajador para el cálculo de la bonificación correspondiente. | 1 | Zapata Medina |
@@ -95,15 +95,16 @@ __Lista de historias de usuario (product backlog priorizada).__
 ### Glosario de Conceptos
 
 | Concepto | Descripción | Observaciones |
-| -------- | ----------- | ------------- |
-| Empleador |  |  |
-| Bonificación |  |  |
-| Descuento |  |  |
-| BoletaDePago |  |  |
-| Empleador-BoletaDePago |  |  |
-| Descuento-BoletaDePago |  |  |
-| Bonificacion-BoletaDePago |  |  |
-| Trabajador-BoletaDePago |  |  |
+| -------- | ----------- | -------------: |
+| __Empleador__ | Es una tabla, donde se almacenarán los datos del empleador. Es quien está a cargo de gestionar los datos de los trabajadores. | Ninguna |
+| __Bonificación__ | Es una tabla donde se guardan los datos sobre bonificaciones del trabajador. El cual obtendrá los datos de pagos por horas extras, bonificaciones por movilidad y bonificaciones suplementarias, todo para su respectivo cálculo de sueldo. | Ninguna |
+| __Descuento__ | Es una tabla donde se guardan los datos sobre los descuentos del trabajador. Se ingresan los datos de días faltantes y la tardanza en minutos, para luego proceder con su cálculo.  | Ninguna |
+| __BoletaDePago__ | Es una tabla detalle, donde todas las demás tablas están vinculadas a esta para poder procesar la boleta de pago. En esta parte se dará a conocer al Trabajador, la cantidad de bonificación, el descuento, y el sueldo total. | Ninguna |
+| __Trabajador__ | Es una tabla encargada de almacenar los datos del Trabajador, en el cual se incluyen los datos importantes del trabajador. | Ninguna |
+| __Empleador-BoletaDePago__ | En esta relación, la boleta de pago se relaciona de a uno con el Empleador, ya que el empleador puede hacer muchas boletas. | Ninguna |
+| __Descuento-BoletaDePago__ | En esta relación, la boleta de pago se relaciona de uno a uno con Descuento, ya que el descuento para el cálculo se usará un ID donde se almacenarán los datos. | Ninguna |
+| __Bonificacion-BoletaDePago__ | En esta relación, la boleta de pago se relaciona de uno a uno con la bonificación, ya que la bonificación tendrá un ID correspondiente por su calcio realizado, y la boleta de pago solo se calcula por cada cálculo que ingrese el Empleador | Ninguna |
+| __Trabajador-BoletaDePago__ | En esta relación, la boleta de pago se relaciona de muchos a uno con trabajador, ya que una boleta de pago solo puede contener a un Trabajador al ser efectuada. | Ninguna |
 
 ## __Ítem 3 - Velocidad del Equipo de desarrollo__ 💻
 
@@ -126,7 +127,7 @@ El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprin
 | 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
 | 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
 | 5 | [HYST05](#hyst05) | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
-| 6 | HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
+| 6 | [HYST06](#hyst06) | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
 |  |  |  | __Total de puntos__ | __9__ |  |
 
 ## __Ítem 5 - Historias de Usuario__ 📜
@@ -151,13 +152,13 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | Aceptado | Osorio Alanya | ✔️ |
-| __Consistente__ | Aceptado | Osorio Alanya | ✔️ |
-| __Negocible__ | Aceptado | Osorio Alanya | ✔️ |
-| __Valiosa__ | Aceptado | Osorio Alanya | ✔️ |
-| __Estimable__ | Aceptado | Osorio Alanya | ✔️ |
-| __Pequeña__ | Aceptado | Osorio Alanya | ✔️ |
-| __Comprobable__ | Aceptado | Osorio Alanya | ✔️ |
+| __Completo__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Consistente__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Negocible__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Valiosa__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Estimable__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Pequeña__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Comprobable__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
 
 #### __Wireframe 01__
 
@@ -181,13 +182,13 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | La historia de usuario “Registro de nuevo empleado” describe todas las funcionalidades necesarias para el registro de un nuevo empleado. | Rosales Tapia | ✔️ |
-| __Consistente__ | El historial del usuario es consistente con el propósito general y los requisitos del proyecto. | Rosales Tapia | ✔️ |
-| __Negocible__ | La historia de usuario es flexible y se puede ajustar en el proceso de desarrollo para adaptarse a los cambios en los requisitos para el proyecto. | Rosales Tapia | ✔️ |
-| __Valiosa__ | La historia de usuario trabajada da un valor real para los usuarios finales. | Rosales Tapia | ✔️ |
-| __Estimable__ | La historia de usuario se puede estimar con gran precisión  en términos de tiempo y esfuerzo que son necesarios para completarlo. | Rosales Tapia | ✔️ |
-| __Pequeña__ | La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionamiento. | Rosales Tapia | ✔️ |
-| __Comprobable__ | La historia de usuario es  sumamente específica. | Rosales Tapia | ✔️ |
+| __Completo__ | _La historia de usuario “Registro de nuevo empleado” describe todas las funcionalidades necesarias para el registro de un nuevo empleado._ | _Rosales Tapia_ | ✔️ |
+| __Consistente__ | _El historial del usuario es consistente con el propósito general y los requisitos del proyecto._ | _Rosales Tapia_ | ✔️ |
+| __Negocible__ | _La historia de usuario es flexible y se puede ajustar en el proceso de desarrollo para adaptarse a los cambios en los requisitos para el proyecto._ | _Rosales Tapia_ | ✔️ |
+| __Valiosa__ | _La historia de usuario trabajada da un valor real para los usuarios finales._ | _Rosales Tapia_ | ✔️ |
+| __Estimable__ | _La historia de usuario se puede estimar con gran precisión  en términos de tiempo y esfuerzo que son necesarios para completarlo._ | _Rosales Tapia_ | ✔️ |
+| __Pequeña__ | _La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionamiento._ | _Rosales Tapia_ | ✔️ |
+| __Comprobable__ | _La historia de usuario es  sumamente específica._ | _Rosales Tapia_ | ✔️ |
 
 #### __Wireframe 02__
 
@@ -211,13 +212,13 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | Tiene una descripción detallada de lo que se espera de la funcionalidad y los datos específicos que se necesitan actualizar. | HIlario Castro | ✔️ |
-| __Consistente__ | Es coherente con los objetivos generales del sistema y está alineada con las necesidades de los usuarios. | HIlario Castro | ✔️ |
-| __Negocible__ | Hay cierto margen para ajustar los detalles de la implementación, siempre y cuando se mantenga el objetivo general y la funcionalidad básica. | HIlario Castro | ✔️ |
-| __Valiosa__ | Se considera valiosa, ya que permite mantener actualizada la información de los trabajadores de manera efectiva.   | HIlario Castro | ✔️ |
-| __Estimable__ | La historia de usuario es fácilmente estimable, ya que involucra una tarea clara y definida. | HIlario Castro | ✔️ |
-| __Pequeña__ | Es una tarea relativamente pequeña y manejable. | HIlario Castro | ✔️ |
-| __Comprobable__ | Es posible probar la funcionalidad y validar si se cumplen todos los requisitos. | HIlario Castro | ✔️ |
+| __Completo__ | _Tiene una descripción detallada de lo que se espera de la funcionalidad y los datos específicos que se necesitan actualizar._ | _Hilario Castro_ | ✔️ |
+| __Consistente__ | _Es coherente con los objetivos generales del sistema y está alineada con las necesidades de los usuarios._ | _Hilario Castro_ | ✔️ |
+| __Negocible__ | _Hay cierto margen para ajustar los detalles de la implementación, siempre y cuando se mantenga el objetivo general y la funcionalidad básica._ | _Hilario Castro_ | ✔️ |
+| __Valiosa__ | _Se considera valiosa, ya que permite mantener actualizada la información de los trabajadores de manera efectiva._   | _Hilario Castro_ | ✔️ |
+| __Estimable__ | _La historia de usuario es fácilmente estimable, ya que involucra una tarea clara y definida._ | _Hilario Castro_ | ✔️ |
+| __Pequeña__ | _Es una tarea relativamente pequeña y manejable._ | _Hilario Castro_ | ✔️ |
+| __Comprobable__ | _Es posible probar la funcionalidad y validar si se cumplen todos los requisitos._ | _Hilario Castro_ | ✔️ |
 
 <!-- #### __Wireframe 03__
 
@@ -241,13 +242,13 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | Se describen todas las funcionalidades necesarias para eliminar un trabajador. | Rosales Tapia | ✔️ |
-| __Consistente__ | La historia de usuario es coherente con los objetivos y requisitos generales del proyecto. | Rosales Tapia | ✔️ |
-| __Negocible__ | La historia de usuario es flexible y se puede ajustar durante el proceso de desarrollo para adaptarse a los cambios en los requisitos del proyecto.  | Rosales Tapia | ✔️ |
-| __Valiosa__ | La funcionalidad de eliminar trabajadores es crucial para el correcto mantenimiento de los registros de los trabajadores. | Rosales Tapia | ✔️ |
-| __Estimable__ | La historia de usuario se puede estimar con precisión en términos de tiempo y esfuerzo requerido para completarla. | Rosales Tapia | ✔️ |
-| __Pequeña__ | La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionalidad. | Rosales Tapia | ✔️ |
-| __Comprobable__ | La historia de usuario es lo suficientemente específica como para que se pueda comprobar su implementación en el sistema. | Rosales Tapia | ✔️ |
+| __Completo__ | _Se describen todas las funcionalidades necesarias para eliminar un trabajador._ | _Rosales Tapia_ | ✔️ |
+| __Consistente__ | _La historia de usuario es coherente con los objetivos y requisitos generales del proyecto._ | _Rosales Tapia_ | ✔️ |
+| __Negocible__ | _La historia de usuario es flexible y se puede ajustar durante el proceso de desarrollo para adaptarse a los cambios en los requisitos del proyecto._  | _Rosales Tapia_ | ✔️ |
+| __Valiosa__ | _La funcionalidad de eliminar trabajadores es crucial para el correcto mantenimiento de los registros de los trabajadores._ | _Rosales Tapia_ | ✔️ |
+| __Estimable__ | _La historia de usuario se puede estimar con precisión en términos de tiempo y esfuerzo requerido para completarla._ | _Rosales Tapia_ | ✔️ |
+| __Pequeña__ | _La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionalidad._ | _Rosales Tapia_ | ✔️ |
+| __Comprobable__ | _La historia de usuario es lo suficientemente específica como para que se pueda comprobar su implementación en el sistema._ | _Rosales Tapia_ | ✔️ |
 
 <!-- #### __Wireframe 04__
 
@@ -271,17 +272,17 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | La historia está completa y cumple con su propósito de buscar un trabajador con la primary key “DNI”. | Zapata Medina | ✔️ |
-| __Consistente__ | Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito. | Zapata Medina | ✔️ |
-| __Negocible__ | Es negociable a cambios de ser necesario, por practicidad o costumbre del usuario. | Zapata Medina | ✔️ |
-| __Valiosa__ | Es muy valiosa ya que sin esta historia de usuario seria difisil encontrar a los usuarios y aplicar los cambios en torno a su sueldo. | Zapata Medina | ✔️ |
-| __Estimable__ | Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo. | Zapata Medina | ✔️ |
-| __Pequeña__ | Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo, a su vez considerando su entrega rápida. | Zapata Medina | ✔️ |
-| __Comprobable__ | Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible. | Zapata Medina | ✔️ |
+| __Completo__ | _La historia está completa y cumple con su propósito de buscar un trabajador con la primary key “DNI”._ | _Zapata Medina_ | ✔️ |
+| __Consistente__ | _Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito._ | _Zapata Medina_ | ✔️ |
+| __Negocible__ | _Es negociable a cambios de ser necesario, por practicidad o costumbre del usuario._ | _Zapata Medina_ | ✔️ |
+| __Valiosa__ | _Es muy valiosa ya que sin esta historia de usuario seria difisil encontrar a los usuarios y aplicar los cambios en torno a su sueldo._ | _Zapata Medina_ | ✔️ |
+| __Estimable__ | _Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo._ | _Zapata Medina_ | ✔️ |
+| __Pequeña__ | _Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo, a su vez considerando su entrega rápida._ | _Zapata Medina_ | ✔️ |
+| __Comprobable__ | _Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible._ | _Zapata Medina_ | ✔️ |
 
-#### __Wireframe 05__
+<!-- #### __Wireframe 05__
 
-![Buscar por DNI][Buscar_DNI]
+![][] -->
 
 ----
 
@@ -300,23 +301,23 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | Está completa y forma parte de otra historia, por lo que su funcionamiento puede afectar otros procedures. | Zapata Medina | ✔️ |
-| __Consistente__ | Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito. | Zapata Medina | ✔️ |
-| __Negocible__ | No es negociable a cambios, por practicidad o costumbre del usuario, se recomienda mantener esta historia como tal, llegando así a una comprensión del funcionamiento. | Zapata Medina | ✔️ |
-| __Valiosa__ | Es valiosa ya que permite seleccionar un trabajador para luego aplicar cambios en sus datos. | Zapata Medina | ✔️ |
-| __Estimable__ | Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo. | Zapata Medina | ✔️ |
-| __Pequeña__ | Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo. | Zapata Medina | ✔️ |
-| __Comprobable__ | Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible. | Zapata Medina | ✔️ |
+| __Completo__ | _Está completa y forma parte de otra historia, por lo que su funcionamiento puede afectar otros procedures._ | _Zapata Medina_ | ✔️ |
+| __Consistente__ | _Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito._ | _Zapata Medina_ | ✔️ |
+| __Negocible__ | _No es negociable a cambios, por practicidad o costumbre del usuario, se recomienda mantener esta historia como tal, llegando así a una comprensión del funcionamiento._ | _Zapata Medina_ | ✔️ |
+| __Valiosa__ | _Es valiosa ya que permite seleccionar un trabajador para luego aplicar cambios en sus datos._ | _Zapata Medina_ | ✔️ |
+| __Estimable__ | _Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo._ | _Zapata Medina_ | ✔️ |
+| __Pequeña__ | _Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo._ | _Zapata Medina_ | ✔️ |
+| __Comprobable__ | _Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible._ | _Zapata Medina_ | ✔️ |
 
-#### __Wireframe 06__
+#### __Wireframe 03, 04, 05 y 06__
 
-![Seleccionar Trabajador][Seleccionar_Trabajador]
+![Crud de trabajador][Crud_Trabajador]
 
 ----
 
 ## Ítem 6 - Definición de Hecho
 
-Todos los criterios de aceptación de cada ítem del producto backlog se han validado y aceptado por el dueño del producto, el trabajo de cada miembro del equipo ha sido revisado por al menos otro miembro del equipo y todo tiene que estar documentado y con sus respectivos casos de prueba.
+> __Todos los criterios de aceptación de cada ítem del producto backlog se han validado y aceptado por el dueño del producto, el trabajo de cada miembro del equipo ha sido revisado por al menos otro miembro del equipo. Todo tiene que estar documentado y con sus respectivos casos de prueba.__
 
 ## Ítem 7 - Diseño UML
 
@@ -325,6 +326,5 @@ Todos los criterios de aceptación de cada ítem del producto backlog se han val
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
 [Login]: /others/img/login.jpg
 [Registrar_Trabajador]: /others/img/registrar_Trabajador.PNG
-[Buscar_DNI]: /others/img/buscar_por_DNI.PNG
-[Seleccionar_Trabajador]: /others/img/seleccionar_Trabajador.PNG
+[Crud_Trabajador]: /others/img/crud_Trabajador.PNG
 [Diagrama_UML]: /others/img/diagrama_UML.PNG
