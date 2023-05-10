@@ -1,5 +1,7 @@
 # Proyecto de Fin de Curso: "Salary Horizon 1.0"
 
+ ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+
 Este proyecto está desarrollado por estudiantes de la _Universidad Continental_, propuesto en el curso de ___Construcción de Software___ con la guía del docente [Daniel Gamarra Moreno](https://estudiantesavp.ucontinental.edu.pe/user/profile.php?id=9474), a quién agradecemos encarecidamente por su esfuerzo, apoyo y dedicación por brindarnos sus conocimientos.
 
 ## Equipo de Desarrollo
@@ -102,5 +104,15 @@ __Lista de historias de usuario (product backlog priorizada).__
 | Descuento-BoletaDePago |  |  |
 | Bonificacion-BoletaDePago |  |  |
 | Trabajador-BoletaDePago |  |  |
+
+## __Ítem 3 - Velocidad del Equipo de desarrollo__ 💻
+
+Se está considerando seis desarrolladores, de los cuales se dedica el 15% del tiempo a generar código, con la duración de un sprint de 10 días (5 días por semana).
+
+```text
+6 * 10 * 0.15 = 9 puntos de historia
+```
+
+El equipo de desarrollo ontuvo una velocidad de 9 puntos de historia por __Sprint__. Por lo tanto la cantidad de puntos de historia por cada Sprint no deberían superar este indicador.
 
 [Modelo Conceptual]: /others/img/modelo_Conceptual.PNG
