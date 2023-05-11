@@ -15,6 +15,8 @@ Este proyecto está desarrollado por estudiantes de la _Universidad Continental_
 | 5         | Rosales Tapia Brad Jhomers        | Developer |
 | 6         | Zapata Medina Juan Diego | Developer |
 
+![Foto grupal del equipo de desarrollo|80][Foto_grupal]
+
 ## Descripción del proyecto
 
 La empresa Horizonte ha decidido implementar un sistema automatizado para el cálculo de los sueldos de sus trabajadores. Se quiere simplificar el proceso de cálculo y asegurarse de que los sueldos se calculen correctamente, evitando errores humanos y reduciendo el tiempo y los costos asociados con el cálculo manual de los sueldos.
@@ -53,7 +55,7 @@ __Lista de historias de usuario (product backlog priorizada).__
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
 | 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador, incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
 | 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
 | 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
@@ -122,7 +124,7 @@ El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprin
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
 | 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
 | 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
 | 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
@@ -141,7 +143,7 @@ Se muestran las historias de usuario de una forma más detallada.
 | Identificador | HYST01 |
 | :---------- | :-------- |
 | __Nombre (alias)__ | Login de empleador para acceder al software de administración. |
-| __Descripción__ | Como empleador, deseo loguearme con una cuenta para empleador de tal manera qué pueda acceder al software y administrar las configuraciones. |
+| __Descripción__ | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. |
 | __Puntos de historia (Horas Ideaales)__ | 2 |
 | __Criterios de aceptación__ | Al abrir el software, se presentará una pantalla con espacios en blanco donde se solicitará el ID y contraseña del empleador.  |
 || Cuando se completen los espacios en blanco, el empleador deberá hacer click en el botón “Login” para acceder a otra ventana. |
@@ -152,13 +154,13 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
-| __Consistente__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
-| __Negocible__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
-| __Valiosa__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
-| __Estimable__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
-| __Pequeña__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
-| __Comprobable__ | _Aceptado_ | _Osorio Alanya_ | ✔️ |
+| __Completo__ | _Un buen software debe ser completo en términos de sus características para autenticar a los usuarios de manera segura y eficiente, además de proporcionar un registro de actividad para fines de auditoría._ | _Osorio Alanya_ | ✔️ |
+| __Consistente__ | _La experiencia del usuario debe ser consistente y predecible, con mensajes de error claros en caso de problemas de autenticación._ | _Osorio Alanya_ | ✔️ |
+| __Negocible__ | _Debe ser negociable, personalizable y adaptarse a las necesidades específicas de cada organización._ | _Osorio Alanya_ | ✔️ |
+| __Valiosa__ | _El login debe proporcionar un valor real a los usuarios y a la organización en general._ | _Osorio Alanya_ | ✔️ |
+| __Estimable__ | _Esto es especialmente importante para las empresas que buscan una solución rentable y eficiente para sus necesidades de autenticación._ | _Osorio Alanya_ | ✔️ |
+| __Pequeña__ | _Debe ser liviano y tener un bajo consumo de recursos para asegurar que no afecte significativamente el rendimiento del sistema._ | _Osorio Alanya_ | ✔️ |
+| __Comprobable__ | _Debe ser comprobable en términos de seguridad y cumplimiento._ | _Osorio Alanya_ | ✔️ |
 
 #### __Wireframe 01__
 
@@ -328,3 +330,4 @@ Se muestran las historias de usuario de una forma más detallada.
 [Registrar_Trabajador]: /others/img/registrar_Trabajador.PNG
 [Crud_Trabajador]: /others/img/crud_Trabajador.PNG
 [Diagrama_UML]: /others/img/diagrama_UML.PNG
+[Foto_grupal]: /others/img/foto_Grupal.jpg
