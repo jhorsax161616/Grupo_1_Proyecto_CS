@@ -79,7 +79,11 @@ __Lista de historias de usuario (product backlog priorizada).__
 | 22 | HYST22 | Enviar boleta de pago por correo | Como empleador, quiero poder enviar una boleta de pago al trabajador, para su notificación inmediata. | 3 | Cordova Poma |
 | 23 | HYST23 | Listar asistencia perfecta por mes | Como empleador, quiero ver una lista de los trabajadores que tuvieron asistencia perfecta en un mes, para poder imprimirlo. | 2 | Rosales Tapia |
 | 24 | HYST24 | Imprimir lista de asistencia perfecta del mes | Como empleador, quiero imprimir la lista de los trabajadores que tuvieron asistencia perfecta en un mes, para poder utilizarlo en otro proceso. | 3 | Zapata Medina |
-|  |  |  | __Total de puntos__ | __43__ |  |
+| 25 | HYST25 | Login Trabajador | Como trabajador quiero inciaiar sesión con mi usuario y contraseña, para poder ser identificado. | 2 | Rosales Tapia |
+| 26 | HYST26 | Cambio de contraseña de trabajador | Como Trabajador, quiero poder cambiar mi contraseñ, para una mayor seguridad. | 1 | Cordova Poma |
+| 27 | HYST27 | Visualizar boletas de pago | Como Trabajador, quiero visualizar mis boletas de pago, para poder emitirlas. | 2 | Cordova Poma |
+| 28 | HYST28 | Contacto y reclamo | Como Trabajador, quiero tener la posibilidad de tener una forma de contacto con algún asistente de la empresa, para poder consultar o presentar reclamos. | 2 | Osorio Alanya |
+|  |  |  | __Total de puntos__ | __46__ |  |
 
 ### __Revisión__
 
