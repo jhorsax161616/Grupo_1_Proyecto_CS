@@ -180,6 +180,7 @@ Se muestran las historias de usuario de una forma más detallada.
 || Las horas extras ingresadas sólo permiten números positivos mayores a 0. |
 || No se permite el ingreso de caracteres alfabéticos. |
 || No se permite el ingreso nulo en el campo de fecha. |
+|| El software permitirá ingresar solamente números enteros en las horas extras. |
 
 #### __Revisión 03__
 
@@ -203,22 +204,22 @@ Se muestran las historias de usuario de una forma más detallada.
 
 | Identificador | HYST04 |
 | :---------- | :-------- |
-| __Nombre (alias)__ | Eliminar Trabajador |
-| __Descripción__ | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. |
-| __Puntos de historia (Horas Ideaales)__ | 1 |
-| __Criterios de aceptación__ | Si se decide eliminar a un trabajador, al momento de seleccionar “eliminar trabajador” se rellenará un registro donde se especifica la fecha, hora y el motivo por el cual se está llevando a cabo la eliminación del trabajador. |
-|| Si se desea continuar con el proceso, al momento de seleccionar “continuar” saldra una notificacion en donde se requerirá la confirmación de seguridad en donde se mostrara dos opciones “1 continuar”  y “2 deshacer cambios”. |
-|| Cuando se haya eliminado el trabajador también se eliminará de la base de datos de los trabajadores actuales. |
-|| Para cuando se haya eliminado al trabajador, el sistema debe actualizar automáticamente cualquier registro relacionado con el trabajador que se eliminó. |
+| __Nombre (alias)__ | Registrar descuento |
+| __Descripción__ | Como empleador, deseo registrar descuentos de un trabajador, para considerar esto en el sueldo. |
+| __Puntos de historia (Horas Ideaales)__ | 3 |
+| __Criterios de aceptación__ | El software no deberá dejar ingresar campos vacíos en la fecha. |
+|| El software permitirá ingresar solamente números enteros en los días de falta y minutos de tardanza. |
+|| El software permitirá ingresar solamente números positivos en los días de falta y minutos de tardanza. |
+|| El software no permitirá ingresar caracteres alfabéticos en los campos de registro de días y minutos de tardanza. |
 
 #### __Revisión 04__
 
 | Criterio | Comentario | Realizado por | Solucionado |
 | :-------- | :--------- | :----------| :--------:|
-| __Completo__ | _Se describen todas las funcionalidades necesarias para eliminar un trabajador._ | _Rosales Tapia_ | ✔️ |
+| __Completo__ | _Se describen todas las funcionalidades necesarias para el registro de descuento._ | _Rosales Tapia_ | ✔️ |
 | __Consistente__ | _La historia de usuario es coherente con los objetivos y requisitos generales del proyecto._ | _Rosales Tapia_ | ✔️ |
 | __Negocible__ | _La historia de usuario es flexible y se puede ajustar durante el proceso de desarrollo para adaptarse a los cambios en los requisitos del proyecto._  | _Rosales Tapia_ | ✔️ |
-| __Valiosa__ | _La funcionalidad de eliminar trabajadores es crucial para el correcto mantenimiento de los registros de los trabajadores._ | _Rosales Tapia_ | ✔️ |
+| __Valiosa__ | _La funcionalidad de registrar descuento de los trabajadores es crucial para el correcto mantenimiento de los registros de los trabajadores._ | _Rosales Tapia_ | ✔️ |
 | __Estimable__ | _La historia de usuario se puede estimar con precisión en términos de tiempo y esfuerzo requerido para completarla._ | _Rosales Tapia_ | ✔️ |
 | __Pequeña__ | _La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionalidad._ | _Rosales Tapia_ | ✔️ |
 | __Comprobable__ | _La historia de usuario es lo suficientemente específica como para que se pueda comprobar su implementación en el sistema._ | _Rosales Tapia_ | ✔️ |
@@ -226,65 +227,6 @@ Se muestran las historias de usuario de una forma más detallada.
 <!-- #### __Wireframe 04__
 
 ![][] -->
-
-----
-
-### __HYST05__
-
-| Identificador | HYST05 |
-| :---------- | :-------- |
-| __Nombre (alias)__ | Buscar Trabajador por DNI |
-| __Descripción__ | Como empleador, quiero poder buscar a un Trabajador por su número de DNI, para poder seleccionarlo. |
-| __Puntos de historia (Horas Ideaales)__ | 2 |
-| __Criterios de aceptación__ | Al ingresar el DNI debe de tener los 8 caracteres.  |
-|| Al ingresar el DNI no debe permitir letras. |
-|| Al ingresar el DNI no debe permitir caracteres especiales |
-|| Al realizar la búsqueda del trabajador se mostrará su ficha con los datos rellenados en su registro. |
-
-#### __Revisión 05__
-
-| Criterio | Comentario | Realizado por | Solucionado |
-| :-------- | :--------- | :----------| :--------:|
-| __Completo__ | _La historia está completa y cumple con su propósito de buscar un trabajador con la primary key “DNI”._ | _Zapata Medina_ | ✔️ |
-| __Consistente__ | _Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito._ | _Zapata Medina_ | ✔️ |
-| __Negocible__ | _Es negociable a cambios de ser necesario, por practicidad o costumbre del usuario._ | _Zapata Medina_ | ✔️ |
-| __Valiosa__ | _Es muy valiosa ya que sin esta historia de usuario seria difisil encontrar a los usuarios y aplicar los cambios en torno a su sueldo._ | _Zapata Medina_ | ✔️ |
-| __Estimable__ | _Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo._ | _Zapata Medina_ | ✔️ |
-| __Pequeña__ | _Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo, a su vez considerando su entrega rápida._ | _Zapata Medina_ | ✔️ |
-| __Comprobable__ | _Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible._ | _Zapata Medina_ | ✔️ |
-
-<!-- #### __Wireframe 05__
-
-![][] -->
-
-----
-
-### __HYST06__
-
-| Identificador | HYST06 |
-| :---------- | :-------- |
-| __Nombre (alias)__ | Seleccionar trabajador |
-| __Descripción__ | Como empleador, quiero poder seleccionar un trabajador, para poder administrar y registrar sus datos respecto al sueldo. |
-| __Puntos de historia (Horas Ideaales)__ | 1 |
-| __Criterios de aceptación__ | Luego de encontrar un trabajador, al hacer click en el resultado este debe de oscurecerse, o tomar un tono oscuro, señalando que se ha seleccionado.  |
-|| Al hacer doble click en la ficha del Empleado encontrado, deberá mostrar los datos de este trabajador, esta ficha está acompañada de botones para seleccionar, editar y eliminar, que son para fácil acceso. |
-|| En caso de no encontrar un trabajador registrado se mostrará una alerta que indica que: El trabajador no ha sido encontrado. |
-
-#### __Revisión 06__
-
-| Criterio | Comentario | Realizado por | Solucionado |
-| :-------- | :--------- | :----------| :--------:|
-| __Completo__ | _Está completa y forma parte de otra historia, por lo que su funcionamiento puede afectar otros procedures._ | _Zapata Medina_ | ✔️ |
-| __Consistente__ | _Es clara y consistente, por lo que evita que el usuario tenga complicaciones con su uso, a su vez alineada a su propósito._ | _Zapata Medina_ | ✔️ |
-| __Negocible__ | _No es negociable a cambios, por practicidad o costumbre del usuario, se recomienda mantener esta historia como tal, llegando así a una comprensión del funcionamiento._ | _Zapata Medina_ | ✔️ |
-| __Valiosa__ | _Es valiosa ya que permite seleccionar un trabajador para luego aplicar cambios en sus datos._ | _Zapata Medina_ | ✔️ |
-| __Estimable__ | _Es estimable definiendo límites reales y posibles tanto en tiempo como en esfuerzo por parte del equipo de desarrollo._ | _Zapata Medina_ | ✔️ |
-| __Pequeña__ | _Es lo suficientemente pequeña como para ser completada en una sola iteración de desarrollo._ | _Zapata Medina_ | ✔️ |
-| __Comprobable__ | _Posee criterios de aceptación claros y  llegó a comprobar con el equipo de desarrollo siendo específico y medible._ | _Zapata Medina_ | ✔️ |
-
-#### __Wireframe 03, 04, 05 y 06__
-
-![Crud de trabajador][Crud_Trabajador]
 
 ----
 
