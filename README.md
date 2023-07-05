@@ -55,12 +55,12 @@ __Lista de historias de usuario (product backlog priorizada).__
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
-| 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador, incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
-| 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
-| 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
-| 5 | [HYST05](#hyst05) | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
-| 6 | [HYST06](#hyst06) | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
+| 1 | HYST01 | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
+| 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador, incluido su sueldo base, para actualizar el registro en la base de datos. | 3 | Ingaroca Maldonado |
+| 3 | [HYST03](#hyst03) | Registrar bonificación | Como empleador, deseo registrar la bonificación de un trabajador, para mantener el registro de este. | 3 | Hilario Castro |
+| 4 | [HYST04](#hyst04) | Registrar descuento | Como empleador, deseo registrar descuentos de un trabajador, para considerar esto en el sueldo. | 3 | Zapata Medina |
+| 5 | HYST05 | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
+| 6 | HYST06 | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
 | 7 | HYST07 | Buscar trabajador por apellidos y nombres | Como empleador, quiero poder buscar a un trabajador por su nombre, para poder seleccionarlo. | 1 | Ingaroca Maldonado |
 | 8 | HYST08 | Listar trabajadores | Como empleador, quiero obtener una lista de los trabajadores registrados y sus datos para poder utilizarlos en otro proceso. | 2 | Hilario Castro |
 | 9 | HYST09 | Ingresar horas extras | Como empleador, quiero ingresar la cantidad de horas extras trabajadas por el trabajador para el cálculo de la bonificación correspondiente. | 1 | Zapata Medina |
@@ -83,7 +83,7 @@ __Lista de historias de usuario (product backlog priorizada).__
 | 26 | HYST26 | Cambio de contraseña de trabajador | Como Trabajador, quiero poder cambiar mi contraseñ, para una mayor seguridad. | 1 | Cordova Poma |
 | 27 | HYST27 | Visualizar boletas de pago | Como Trabajador, quiero visualizar mis boletas de pago, para poder emitirlas. | 2 | Cordova Poma |
 | 28 | HYST28 | Contacto y reclamo | Como Trabajador, quiero tener la posibilidad de tener una forma de contacto con algún asistente de la empresa, para poder consultar o presentar reclamos. | 2 | Osorio Alanya |
-|  |  |  | __Total de puntos__ | __46__ |  |
+|  |  |  | __Total de puntos__ | __54__ |  |
 
 ### __Revisión__
 
@@ -128,47 +128,14 @@ El equipo de desarrollo obtuvo una velocidad de 9 puntos de historia por __Sprin
 
 | __Prioridad__  | __Identificador__  | __Nombre (alias)__  | __Descripción__  | __Puntos de Historia (Días ideales)__  | __Responsable__  |
 |:----: |:-------- |:--------------------- |:------------------------|:----: |:-----------------|
-| 1 | [HYST01](#hyst01) | Login de empleador para acceder al software de administración | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. | 2 | Cordova Poma |
-| 2 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador incluido su sueldo base, para actualizar el registro en la base de datos. | 1 | Ingaroca Maldonado |
-| 3 | [HYST03](#hyst03) | Editar trabajador | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. | 2 | Hilario Castro |
-| 4 | [HYST04](#hyst04) | Eliminar trabajador | Como empleador, deseo eliminar a un trabajador, para actualizar la lista de trabajadores. | 1 | Zapata Medina |
-| 5 | [HYST05](#hyst05) | Buscar trabajador por DNI | Como empleador, quiero poder buscar a un Trabajador, para poder seleccionarlo. | 2 | Rosales Tapia |
-| 6 | [HYST06](#hyst06) | Seleccionar trabajador | Como empleador, quiero poder seleccionar un Trabajador, para poder administrar y registrar sus datos respecto al sueldo. | 1 | Osorio Alanya |
+| 1 | [HYST02](#hyst02) | Registro de nuevo trabajador | Como empleador, deseo registrar a un trabajador incluido su sueldo base, para actualizar el registro en la base de datos. | 3 | Ingaroca Maldonado |
+| 2 | [HYST03](#hyst03) | Registrar bonificación | Como empleador, deseo registrar la bonificación de un trabajador, para mantener el registro de este. | 3 | Hilario Castro | 3 | Hilario Castro |
+| 3 | [HYST04](#hyst04) | Registrar descuento | Como empleador, deseo registrar descuentos de un trabajador, para considerar esto en el sueldo. | 3 | Zapata Medina |
 |  |  |  | __Total de puntos__ | __9__ |  |
 
 ## __Ítem 5 - Historias de Usuario__ 📜
 
 Se muestran las historias de usuario de una forma más detallada.
-
-----
-
-### __HYST01__
-
-| Identificador | HYST01 |
-| :---------- | :-------- |
-| __Nombre (alias)__ | Login de empleador para acceder al software de administración. |
-| __Descripción__ | Como empleador, deseo loguearme con una cuenta de empleador para poder acceder al software y administrar las configuraciones. |
-| __Puntos de historia (Horas Ideaales)__ | 2 |
-| __Criterios de aceptación__ | Al abrir el software, se presentará una pantalla con espacios en blanco donde se solicitará el ID y contraseña del empleador.  |
-|| Cuando se completen los espacios en blanco, el empleador deberá hacer click en el botón “Login” para acceder a otra ventana. |
-|| Si el empleador se equivocó en algún espacio en blanco, el empleador podrá dar click en el botón “Cancel” para volver a escribir sus datos. |
-|| Si el empleador olvidó su contraseña, podrá hacer click en “Forgot Password” para recuperar su contraseña. |
-
-#### __Revisión 01__
-
-| Criterio | Comentario | Realizado por | Solucionado |
-| :-------- | :--------- | :----------| :--------:|
-| __Completo__ | _Un buen software debe ser completo en términos de sus características para autenticar a los usuarios de manera segura y eficiente, además de proporcionar un registro de actividad para fines de auditoría._ | _Osorio Alanya_ | ✔️ |
-| __Consistente__ | _La experiencia del usuario debe ser consistente y predecible, con mensajes de error claros en caso de problemas de autenticación._ | _Osorio Alanya_ | ✔️ |
-| __Negocible__ | _Debe ser negociable, personalizable y adaptarse a las necesidades específicas de cada organización._ | _Osorio Alanya_ | ✔️ |
-| __Valiosa__ | _El login debe proporcionar un valor real a los usuarios y a la organización en general._ | _Osorio Alanya_ | ✔️ |
-| __Estimable__ | _Esto es especialmente importante para las empresas que buscan una solución rentable y eficiente para sus necesidades de autenticación._ | _Osorio Alanya_ | ✔️ |
-| __Pequeña__ | _Debe ser liviano y tener un bajo consumo de recursos para asegurar que no afecte significativamente el rendimiento del sistema._ | _Osorio Alanya_ | ✔️ |
-| __Comprobable__ | _Debe ser comprobable en términos de seguridad y cumplimiento._ | _Osorio Alanya_ | ✔️ |
-
-#### __Wireframe 01__
-
-![Login del empleador|80][Login]
 
 ----
 
@@ -178,11 +145,15 @@ Se muestran las historias de usuario de una forma más detallada.
 | :---------- | :-------- |
 | __Nombre (alias)__ | Registro de nuevo trabajador |
 | __Descripción__ | Como empleador, deseo registrar a un trabajador, para actualizar el registro en la base de datos. |
-| __Puntos de historia (Horas Ideaales)__ | 1 |
-| __Criterios de aceptación__ | Al seleccionar la opción de "Registrar Trabajador", se debe presentar al empleador una pantalla con diferentes espacios en blanco en donde solicitan información del trabajador.  |
-|| Cuando el empleador termine de completar los espacios en blanco, asegurarse de guardar el nuevo registro del trabajador con el botón “agregar”. |
-|| Si el empleador decide cancelar el registro  del trabajador, no se deben guardar los cambios en la base de datos y se debe borrar todos los espacios en blanco anteriormente rellenados . |
-|| Si el nuevo trabajador que quiere registrarse ingresa datos erróneos, o se salta alguna casilla no podrá realizar el registro y saltará una notificación que comunique la revisión de que  los datos sean correctos. |
+| __Puntos de historia (Horas Ideaales)__ | 3 |
+| __Criterios de aceptación__ | El software no deberá dejar campos vacíos en los nombres, al registrar el nombre del trabajador. |
+|| El software no deberá permitir el ingreso de caracteres números, al registrar el nombre del trabajador. |
+|| El software no deberá permitir ingresar símbolos, al registrar el nombre del trabajador |
+|| El software no deberá permitir el ingreso de sueldo básico negativo al registrar el sueldo. |
+|| El software no deberá permitir ingresar caracteres alfabéticos, al registrar el sueldo. |
+|| El software no deberá permitir ingresar símbolos, al registrar el sueldo. |
+|| El software solo deberá permitir como máximo hasta 35 caracteres, al registrar el nombre del trabajador. |
+|| El software no deberá permitir el ingreso de dos nombres iguales al registrar el nombre del trabajador |
 
 #### __Revisión 02__
 
@@ -196,23 +167,19 @@ Se muestran las historias de usuario de una forma más detallada.
 | __Pequeña__ | _La historia de usuario es lo suficientemente pequeña como para que pueda ser completada en un ciclo de funcionamiento._ | _Rosales Tapia_ | ✔️ |
 | __Comprobable__ | _La historia de usuario es  sumamente específica._ | _Rosales Tapia_ | ✔️ |
 
-#### __Wireframe 02__
-
-![Registrar nuevo trabajador GUI][Registrar_Trabajador]
-
 ----
 
 ### __HYST03__
 
 | Identificador | HYST03 |
 | :---------- | :-------- |
-| __Nombre (alias)__ | Editar Empleado |
-| __Descripción__ | Como empleador, deseo editar los datos de un trabajador, para actualizar su registro en  la base de datos. |
-| __Puntos de historia (Horas Ideaales)__ | 2 |
-| __Criterios de aceptación__ | Al seleccionar la opción de "Editar Trabajador", se debe presentar al empleador una pantalla con los datos actuales del trabajador.  |
-|| El empleador debe poder modificar cualquier campo de los datos del trabajador. |
-|| Si el empleador decide cancelar la edición del trabajador, no se deben guardar los cambios en la base de datos y se debe volver a la pantalla anterior sin realizar ninguna acción. |
-|| Si el empleador intenta guardar cambios con datos inválidos, se debe mostrar un mensaje de error indicando cuál campo tiene un valor no válido. |
+| __Nombre (alias)__ | Registrar bonificación |
+| __Descripción__ | Como empleador, deseo registrar la bonificación de un trabajador, para mantener el registro de este. |
+| __Puntos de historia (Horas Ideaales)__ | 3 |
+| __Criterios de aceptación__ | La bonificación tiene que tener un número positivo.  |
+|| Las horas extras ingresadas sólo permiten números positivos mayores a 0. |
+|| No se permite el ingreso de caracteres alfabéticos. |
+|| No se permite el ingreso nulo en el campo de fecha. |
 
 #### __Revisión 03__
 
