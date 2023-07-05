@@ -48,7 +48,7 @@ class PersistenciaBonificacion():
 
         return True
         
-    def verBonificaciones():
+    def verBonificaciones(self):
         bonificaciones = session.query(Bonificacion).all()
         print('\n-------- BONIFICACIONES REGISTRADOS --------')
         for bonificacion in bonificaciones:
